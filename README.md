@@ -93,7 +93,7 @@ V ItemsAdder přiřaď novému obrázku vlastní fontový znak. Zarovnání př�
 
 ## POZVAT HRÁČE — cartoon pixel art 176 × 125 px
 
-Celoplošná cartoon pixelartová ilustrace pro klanové podmenu **POZVAT HRÁČE** má motiv sovy nesoucí zapečetěný dopis a klanového hradu. Panel má stejný rozměr **176 × 125 px** a stejné souřadnice jako ostatní klanová GUI. Hráčův inventář není součástí obrázku.
+Celoplošná cartoon pixelartová ilustrace pro klanové podmenu **POZVAT HRÁČE** má motiv sovy nesoucí zapečetěný dopis a klanového hradu. Panel má stejný rozměr **176 × 125 px** a stejné souřadnice jako ostatní klanová GUI. Hráčův inventář není součástí obrázku. Sova má zvýrazněné oči a všechny rámečky souvislou hnědou horní hranu.
 
 Rámečky jsou pouze u **39 používaných slotů**: **0–35** pro hráče a **45, 49 a 53** pro navigaci. Hlavy hráčů, šipky ani ikona domů nejsou do obrázku nakreslené; zobrazuje je menu plugin. Sloty zachovávají rozteč **18 px** a vnitřní prostor **16 × 16 px** pro item.
 
