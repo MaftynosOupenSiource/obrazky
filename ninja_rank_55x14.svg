@@ -1,30 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="55" height="14" viewBox="0 0 55 14" shape-rendering="crispEdges">
-<title>NINJA rank — red patterned badge with a white cross</title>
-<path fill="#040404" d="M0 0h1v1h-1zM11 0h1v1h-1zM14 0h1v1h-1zM16 0h1v1h-1zM30 0h1v1h-1zM48 0h1v1h-1zM53 0h1v1h-1zM4 13h1v1h-1zM20 13h1v1h-1zM26 13h1v1h-1zM31 13h1v1h-1zM37 13h1v1h-1zM39 13h1v1h-1zM52 13h1v1h-1z"/>
-<path fill="#040304" d="M1 0h2v1h-2zM9 0h1v1h-1zM33 0h1v1h-1zM39 0h1v1h-1zM41 0h1v1h-1zM47 0h1v1h-1zM3 13h1v1h-1zM6 13h1v1h-1zM9 13h2v1h-2zM14 13h1v1h-1zM16 13h1v1h-1zM19 13h1v1h-1zM21 13h1v1h-1zM30 13h1v1h-1zM32 13h1v1h-1zM49 13h2v1h-2z"/>
-<path fill="#040403" d="M3 0h1v1h-1zM6 0h1v1h-1zM18 0h1v1h-1zM25 0h1v1h-1zM54 1h1v1h-1zM13 13h1v1h-1zM27 13h1v1h-1zM43 13h1v1h-1zM51 13h1v1h-1z"/>
-<path fill="#030403" d="M4 0h1v1h-1zM17 0h1v1h-1zM27 0h1v1h-1zM43 0h1v1h-1zM51 0h1v1h-1zM7 13h1v1h-1zM12 13h1v1h-1zM15 13h1v1h-1zM17 13h1v1h-1z"/>
-<path fill="#030303" d="M5 0h1v1h-1zM10 0h1v1h-1zM19 0h1v1h-1zM22 0h2v1h-2zM36 0h1v1h-1zM44 0h2v1h-2zM54 0h1v1h-1zM0 1h1v1h-1zM0 13h2v1h-2zM5 13h1v1h-1zM8 13h1v1h-1zM11 13h1v1h-1zM18 13h1v1h-1zM23 13h1v1h-1zM29 13h1v1h-1zM34 13h1v1h-1zM36 13h1v1h-1zM54 13h1v1h-1z"/>
-<path fill="#040303" d="M7 0h2v1h-2zM12 0h2v1h-2zM15 0h1v1h-1zM29 0h1v1h-1zM34 0h2v1h-2zM40 0h1v1h-1zM42 0h1v1h-1zM46 0h1v1h-1zM49 0h2v1h-2zM52 0h1v1h-1zM2 13h1v1h-1zM24 13h1v1h-1zM28 13h1v1h-1zM40 13h1v1h-1zM44 13h2v1h-2zM47 13h1v1h-1z"/>
-<path fill="#030404" d="M20 0h2v1h-2zM37 0h1v1h-1zM25 13h1v1h-1z"/>
-<path fill="#030304" d="M24 0h1v1h-1zM26 0h1v1h-1zM28 0h1v1h-1zM32 0h1v1h-1zM38 0h1v1h-1zM0 12h1v1h-1zM22 13h1v1h-1zM33 13h1v1h-1zM35 13h1v1h-1zM38 13h1v1h-1zM46 13h1v1h-1zM53 13h1v1h-1z"/>
-<path fill="#030203" d="M31 0h1v1h-1z"/>
-<path fill="#0d0d0d" d="M1 1h1v1h-1zM31 1h1v1h-1z"/>
-<path fill="#0d0d0e" d="M2 1h1v1h-1zM8 1h1v1h-1zM10 1h1v1h-1zM13 1h2v1h-2zM18 1h2v1h-2zM25 1h2v1h-2zM28 1h3v1h-3zM34 1h2v1h-2zM39 1h1v1h-1zM43 1h4v1h-4zM50 1h1v1h-1zM0 2h1v1h-1zM54 2h1v1h-1zM5 12h1v1h-1zM9 12h2v1h-2zM14 12h5v1h-5zM21 12h1v1h-1zM25 12h2v1h-2zM28 12h2v1h-2zM31 12h1v1h-1zM34 12h1v1h-1zM36 12h2v1h-2zM44 12h3v1h-3zM51 12h1v1h-1z"/>
-<path fill="#0c0c0d" d="M3 1h2v1h-2zM21 1h1v1h-1zM24 1h1v1h-1zM32 1h1v1h-1zM49 1h1v1h-1zM0 4h1v1h-1zM54 4h1v1h-1zM0 9h1v1h-1zM54 10h1v1h-1zM7 12h1v1h-1zM19 12h1v1h-1z"/>
-<path fill="#0e0e0e" d="M5 1h1v1h-1zM36 1h1v1h-1zM54 11h1v1h-1zM47 12h1v1h-1z"/>
-<path fill="#0e0d0e" d="M6 1h1v1h-1zM15 1h1v1h-1zM41 1h2v1h-2zM51 1h2v1h-2zM0 11h2v1h-2zM53 11h1v1h-1zM2 12h2v1h-2zM8 12h1v1h-1zM20 12h1v1h-1zM22 12h1v1h-1zM33 12h1v1h-1zM35 12h1v1h-1zM38 12h1v1h-1zM50 12h1v1h-1zM52 12h1v1h-1z"/>
-<path fill="#0d0c0d" d="M7 1h1v1h-1zM12 12h1v1h-1z"/>
-<path fill="#0c0d0e" d="M9 1h1v1h-1zM38 1h1v1h-1zM0 3h1v1h-1zM0 10h1v1h-1zM24 12h1v1h-1z"/>
-<path fill="#0e0e0f" d="M11 1h1v1h-1zM20 1h1v1h-1zM22 1h1v1h-1zM40 1h1v1h-1zM48 1h1v1h-1zM4 12h1v1h-1zM11 12h1v1h-1zM30 12h1v1h-1zM32 12h1v1h-1zM41 12h3v1h-3z"/>
-<path fill="#0e0d0d" d="M12 1h1v1h-1z"/>
-<path fill="#0d0c0e" d="M16 1h1v1h-1zM23 1h1v1h-1zM33 1h1v1h-1zM37 1h1v1h-1zM13 12h1v1h-1zM23 12h1v1h-1zM27 12h1v1h-1z"/>
-<path fill="#0e0d0f" d="M17 1h1v1h-1zM48 12h2v1h-2zM53 12h1v1h-1z"/>
-<path fill="#0c0d0d" d="M27 1h1v1h-1z"/>
-<path fill="#0d0e0f" d="M47 1h1v1h-1z"/>
-<path fill="#0f0d0e" d="M53 1h1v1h-1z"/>
-<path fill="#0e0e0d" d="M1 2h1v1h-1z"/>
+<title>NINJA rank — red patterned badge with a white cross and transparent surroundings</title>
 <path fill="#f10a19" d="M2 2h1v1h-1z"/>
 <path fill="#f10b19" d="M3 2h1v1h-1zM18 2h2v1h-2z"/>
 <path fill="#f20c1a" d="M4 2h1v1h-1zM23 2h1v1h-1zM25 2h1v1h-1zM29 2h1v1h-1zM37 2h1v1h-1zM40 2h1v1h-1zM44 2h1v1h-1z"/>
@@ -46,7 +22,6 @@
 <path fill="#f30d1a" d="M42 2h1v1h-1z"/>
 <path fill="#f00d1a" d="M48 2h1v1h-1z"/>
 <path fill="#f30e1b" d="M50 2h1v1h-1z"/>
-<path fill="#0e0b0b" d="M53 2h1v1h-1z"/>
 <path fill="#df0514" d="M1 3h1v1h-1z"/>
 <path fill="#ef0b19" d="M2 3h1v1h-1z"/>
 <path fill="#5d0004" d="M3 3h1v1h-1z"/>
@@ -96,7 +71,6 @@
 <path fill="#420204" d="M51 3h1v1h-1z"/>
 <path fill="#ef0c1c" d="M52 3h1v1h-1z"/>
 <path fill="#df0714" d="M53 3h1v1h-1z"/>
-<path fill="#0b0c0c" d="M54 3h1v1h-1z"/>
 <path fill="#f51422" d="M1 4h1v1h-1z"/>
 <path fill="#e70715" d="M2 4h1v1h-1zM2 10h1v1h-1z"/>
 <path fill="#5d0105" d="M3 4h1v1h-1z"/>
@@ -134,7 +108,6 @@
 <path fill="#3d0103" d="M50 4h1v1h-1zM16 6h1v1h-1z"/>
 <path fill="#7c0206" d="M51 4h1v1h-1z"/>
 <path fill="#f61624" d="M53 4h1v1h-1z"/>
-<path fill="#0a0a0b" d="M0 5h1v1h-1zM54 9h1v1h-1z"/>
 <path fill="#f41221" d="M1 5h1v1h-1z"/>
 <path fill="#e80815" d="M2 5h1v1h-1zM2 6h1v1h-1z"/>
 <path fill="#420105" d="M3 5h1v1h-1z"/>
@@ -168,8 +141,6 @@
 <path fill="#610204" d="M50 5h2v1h-2z"/>
 <path fill="#f20c1b" d="M52 5h1v1h-1z"/>
 <path fill="#f31020" d="M53 5h1v1h-1z"/>
-<path fill="#0c0b0c" d="M54 5h1v1h-1z"/>
-<path fill="#0b0b0b" d="M0 6h1v1h-1z"/>
 <path fill="#f41020" d="M1 6h1v1h-1z"/>
 <path fill="#560105" d="M3 6h1v1h-1z"/>
 <path fill="#400204" d="M4 6h1v1h-1z"/>
@@ -198,8 +169,6 @@
 <path fill="#5e0204" d="M50 6h1v1h-1z"/>
 <path fill="#f50f1d" d="M52 6h1v1h-1z"/>
 <path fill="#ef0b1a" d="M53 6h1v1h-1z"/>
-<path fill="#0c0b0b" d="M54 6h1v1h-1z"/>
-<path fill="#0b0b0c" d="M0 7h1v1h-1zM54 7h1v1h-1z"/>
 <path fill="#f4101f" d="M1 7h1v1h-1zM53 10h1v1h-1z"/>
 <path fill="#e80715" d="M2 7h1v1h-1z"/>
 <path fill="#410204" d="M3 7h1v1h-1z"/>
@@ -223,7 +192,6 @@
 <path fill="#faf7f4" d="M49 7h1v1h-1z"/>
 <path fill="#f5101e" d="M52 7h1v1h-1z"/>
 <path fill="#ef0918" d="M53 7h1v1h-1zM6 11h1v1h-1zM8 11h1v1h-1z"/>
-<path fill="#0c0c0c" d="M0 8h1v1h-1z"/>
 <path fill="#f4111f" d="M1 8h1v1h-1z"/>
 <path fill="#e90815" d="M2 8h1v1h-1z"/>
 <path fill="#460104" d="M3 8h1v1h-1z"/>
@@ -259,7 +227,6 @@
 <path fill="#6f0104" d="M51 8h1v1h-1zM20 10h1v1h-1zM48 10h1v1h-1z"/>
 <path fill="#f50f1e" d="M52 8h1v1h-1z"/>
 <path fill="#f00b19" d="M53 8h1v1h-1z"/>
-<path fill="#09090a" d="M54 8h1v1h-1z"/>
 <path fill="#f51120" d="M1 9h1v1h-1z"/>
 <path fill="#e80714" d="M2 9h1v1h-1z"/>
 <path fill="#5f0206" d="M5 9h1v1h-1z"/>
@@ -349,9 +316,4 @@
 <path fill="#ec0817" d="M48 11h1v1h-1z"/>
 <path fill="#ed0918" d="M49 11h1v1h-1zM51 11h1v1h-1z"/>
 <path fill="#eb0818" d="M52 11h1v1h-1z"/>
-<path fill="#0e0f0f" d="M1 12h1v1h-1z"/>
-<path fill="#0d0d0f" d="M6 12h1v1h-1zM39 12h1v1h-1z"/>
-<path fill="#0c0c0e" d="M40 12h1v1h-1z"/>
-<path fill="#050404" d="M54 12h1v1h-1zM41 13h1v1h-1z"/>
-<path fill="#050305" d="M42 13h1v1h-1zM48 13h1v1h-1z"/>
 </svg>

@@ -11,7 +11,7 @@ Pro stažení otevři soubor a použij tlačítko **Download raw file** vpravo n
 
 ## Rank NINJA — 55 × 14 px
 
-Červená ranková ikonka s nápisem **NINJA**, vzorovaným pozadím a křížem vpravo.
+Červená ranková ikonka s nápisem **NINJA**, vzorovaným pozadím a křížem vpravo. Okolí červeného rámečku je průhledné, bez černého pozadí.
 
 [![Zvětšený náhled ranku NINJA](ninja_rank_preview.png)](ninja_rank_55x14.png)
 
