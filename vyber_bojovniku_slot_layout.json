@@ -389,8 +389,8 @@
         "width": 16,
         "height": 16
       },
-      "render_frame": true,
-      "role": "player"
+      "render_frame": false,
+      "role": "background"
     },
     {
       "index": 19,
@@ -1059,8 +1059,8 @@
     }
   ],
   "title": "VÝBĚR BOJOVNÍKŮ",
-  "style": "Full-canvas cartoon pixel-art clan-war preparation scene with five distinct fighters standing on varied stone pedestals: a poor ragged recruit, an elite gold-and-silver knight, a stout bearded dwarf with an axe, a green-clad elven archer and a purple-robed wizard with a staff. Only slots 0 through 18 and navigation slots 45, 49 and 53 have framed/dimmed backgrounds with continuous brown upper edges. Player heads, navigation arrows and the home icon are supplied by the menu plugin, not drawn in this texture.",
-  "visible_slot_count": 22,
+  "style": "Full-canvas cartoon pixel-art clan-war preparation scene with five distinct fighters standing on varied stone pedestals: a poor ragged recruit, an elite gold-and-silver knight, a stout bearded dwarf with an axe, a green-clad elven archer and a purple-robed wizard with a staff. Only slots 0 through 17 and navigation slots 45, 49 and 53 have framed/dimmed backgrounds with continuous brown upper edges. Player heads, navigation arrows and the home icon are supplied by the menu plugin, not drawn in this texture.",
+  "visible_slot_count": 21,
   "active_slot_indices": [
     0,
     1,
@@ -1080,7 +1080,6 @@
     15,
     16,
     17,
-    18,
     45,
     49,
     53
@@ -1111,7 +1110,6 @@
     14,
     15,
     16,
-    17,
-    18
+    17
   ]
 }

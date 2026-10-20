@@ -146,7 +146,7 @@ V ItemsAdder přiřaď novému obrázku vlastní fontový znak. Zarovnání př�
 
 Celoplošná cartoon pixelartová ilustrace pro klanové podmenu **VÝBĚR BOJOVNÍKŮ** zobrazuje pět různých bojovníků připravených na clan wars na různě vysokých kamenných stupíncích: chudého otrhaného nováčka, elitního rytíře ve stříbrné a zlaté zbroji, vousatého trpaslíka se sekerou, zeleného elfího lučištníka a fialového mága s holí. Panel má stejný rozměr **176 × 125 px** a stejné souřadnice jako ostatní klanová GUI. Hráčův inventář není součástí obrázku.
 
-Rámečky se souvislými hnědými horními hranami jsou pouze u **22 používaných slotů**: **0–18** pro **19 hráčů** a **45, 49 a 53** pro navigaci. Slot **18** je první pozice ve třetí řadě, na souřadnicích rámečku **(7, 53)**. Hlavy hráčů, šipky ani ikona domů nejsou do obrázku nakreslené; zobrazuje je menu plugin. Ostatní plocha tvoří souvislou ilustraci. Sloty zachovávají rozteč **18 px** a vnitřní prostor **16 × 16 px** pro item.
+Rámečky se souvislými hnědými horními hranami jsou pouze u **21 používaných slotů**: **0–17** pro **18 hráčů** a **45, 49 a 53** pro navigaci. Hlavy hráčů, šipky ani ikona domů nejsou do obrázku nakreslené; zobrazuje je menu plugin. Ostatní plocha tvoří souvislou ilustraci. Sloty zachovávají rozteč **18 px** a vnitřní prostor **16 × 16 px** pro item.
 
 Číslování začíná od nuly, takže poslední slot šestiřadého menu je **53**. Pozice pravé šipky zadaná jako 54 je proto připravená v pravém dolním rohu na indexu **53**.
 
