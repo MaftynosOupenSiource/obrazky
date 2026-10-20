@@ -107,3 +107,20 @@ Rámečky jsou pouze u **39 používaných slotů**: **0–35** pro hráče a **
 - [Samotná ilustrace bez rámečků](pozvat_hrace_pozadi_176x125.png)
 
 V ItemsAdder přiřaď novému obrázku vlastní fontový znak. Zarovnání přímo ve hře zatím nebylo ověřeno.
+
+## VYHODIT HRÁČE — cartoon pixel art 176 × 125 px
+
+Celoplošná cartoon pixelartová ilustrace pro klanové podmenu **VYHODIT HRÁČE** zobrazuje smutného vyhozeného člena, komicky velkou botu a padací most hradu. Scénka s motivem žalu a lítosti je kreslená s nadsázkou. Panel má stejný rozměr **176 × 125 px** a stejné souřadnice jako ostatní klanová GUI. Hráčův inventář není součástí obrázku.
+
+Rámečky se souvislými hnědými horními hranami jsou pouze u **39 používaných slotů**: **0–35** pro hráče a **45, 49 a 53** pro navigaci. Hlavy hráčů, šipky ani ikona domů nejsou do obrázku nakreslené; zobrazuje je menu plugin. Sloty zachovávají rozteč **18 px** a vnitřní prostor **16 × 16 px** pro item.
+
+Číslování začíná od nuly, takže poslední slot šestiřadého menu je **53**. Pozice pravé šipky zadaná jako 54 je proto připravená v pravém dolním rohu na indexu **53**.
+
+[![Zvětšený náhled VYHODIT HRÁČE](vyhodit_hrace_gui_preview.png)](vyhodit_hrace_gui_176x125.png)
+
+- [PNG — originál 176 × 125 px](vyhodit_hrace_gui_176x125.png)
+- [Zvětšený PNG náhled](vyhodit_hrace_gui_preview.png)
+- [Přesné souřadnice slotů (JSON)](vyhodit_hrace_slot_layout.json)
+- [Samotná ilustrace bez rámečků](vyhodit_hrace_pozadi_176x125.png)
+
+V ItemsAdder přiřaď novému obrázku vlastní fontový znak. Zarovnání přímo ve hře zatím nebylo ověřeno.
