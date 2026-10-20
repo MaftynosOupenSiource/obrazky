@@ -174,11 +174,11 @@ Rámečky se souvislými hnědými horními hranami jsou pouze u **30 používan
 
 V ItemsAdder přiřaď novému obrázku vlastní fontový znak. Zarovnání přímo ve hře zatím nebylo ověřeno.
 
-## Rank BOSS — 38 × 8 px
+## Rank BOSS — 55 × 14 px
 
-Vylepšený rank **BOSS** zachovává přesný rozměr původního obrázku **38 × 8 px**. Celou plochu vyplňuje fialové vzorované pozadí se světlou horní hranou, ostrým světlým nápisem a stříbrnou ikonou vpravo.
+Rank **BOSS** má rozměr **55 × 14 px**. Celou plochu vyplňuje fialové vzorované pozadí se světlou horní hranou, výrazným pixelovým nápisem s jemným stínem a stříbrnou ikonou vpravo.
 
-[![Zvětšený náhled ranku BOSS](boss_rank_preview.png)](boss_rank_38x8.png)
+[![Zvětšený náhled ranku BOSS](boss_rank_55x14_preview.png)](boss_rank_55x14.png)
 
-- [PNG — originál 38 × 8 px](boss_rank_38x8.png)
-- [Zvětšený PNG náhled](boss_rank_preview.png)
+- [PNG — originál 55 × 14 px](boss_rank_55x14.png)
+- [Zvětšený PNG náhled](boss_rank_55x14_preview.png)
