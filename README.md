@@ -20,3 +20,12 @@ Náhled výše je zvětšený pro snadné prohlížení. Pro použití ve hře s
 - [PNG — originál 55 × 14 px](ninja_rank_55x14.png)
 - [SVG — 55 × 14 px](ninja_rank_55x14.svg)
 - [Zvětšený PNG náhled](ninja_rank_preview.png)
+
+## DREAM SHOP — 176 × 112 px
+
+Minecraft GUI vyplňuje celých **176 × 112 px**. Má šedý rámeček, horní lištu **DREAM SHOP**, rozostřené barevné pozadí, zlatou minci vlevo dole a šest slotů vpravo ve dvou sloupcích a třech řádcích.
+
+[![Zvětšený náhled DREAM SHOP GUI](dream_shop_gui_preview.png)](dream_shop_gui_176x112.png)
+
+- [PNG — originál 176 × 112 px](dream_shop_gui_176x112.png)
+- [Zvětšený PNG náhled](dream_shop_gui_preview.png)
