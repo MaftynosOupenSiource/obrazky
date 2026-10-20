@@ -47,6 +47,8 @@ Pro standardní souřadnice Minecraft menu se při měřítku **1:1** počítá 
 
 Horní panel zachovává **54 slotů v 6 řadách po 9** na standardních souřadnicích šablony. Dřevěné poličky tvoří rámečky slotů; hráčův inventář do obrázku není zahrnutý. Rozměr **176 × 125 px** odpovídá horní části šestiřadého chest menu: 17 px horní lišty a 108 px mřížky. Sloty mají přesnou rozteč **18 px** a prostor **16 × 16 px** pro každý item.
 
+Nadpis **SKLADIŠTĚ** je vysázen ostrým pixelovým písmem s českými háčky. Poličky a souřadnice všech slotů zůstaly zachované.
+
 [![Zvětšený náhled skladiště s poličkami](skladiste_policky_preview.png)](skladiste_policky_176x125.png)
 
 - [PNG — horní panel 176 × 125 px](skladiste_policky_176x125.png)
