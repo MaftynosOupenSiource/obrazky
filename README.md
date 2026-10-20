@@ -61,12 +61,15 @@ Pro tuto variantu s horní lištou při standardním bitmapovém vykreslení pou
 
 ## KLANY — cartoon GUI 176 × 125 px
 
-Barevné klanové GUI v modré, tyrkysové a zlaté barvě se štíty, prapory a ostrým pixelovým nadpisem **KLANY**. Obsahuje jen horní panel s **54 sloty v mřížce 9 × 6**, bez hráčova inventáře. Rozměr **176 × 125 px**, rozteč **18 px** a prostor **16 × 16 px** pro item zachovávají stejné souřadnice jako skladiště s poličkami.
+Celou plochu **176 × 125 px** vyplňuje cartoon pixelartová ilustrace klanové osady s pevností a ostrým pixelovým nadpisem **KLANY**. Menu má kapacitu **54 slotů (9 × 6)**, ale nakreslené rámečky jsou pouze u **11 používaných slotů**: **1, 3, 4, 5, 7, 19, 22, 25, 37, 40 a 43**. Číslování začíná od nuly; ostatní plocha tvoří souvislou kresbu. Hráčův inventář není součástí obrázku.
+
+Rámečky zachovávají standardní souřadnice, rozteč **18 px** a prostor **16 × 16 px** pro každý item, stejně jako skladiště s poličkami.
 
 [![Zvětšený náhled klanového GUI](klany_gui_preview.png)](klany_gui_176x125.png)
 
 - [PNG — originál 176 × 125 px](klany_gui_176x125.png)
 - [Zvětšený PNG náhled](klany_gui_preview.png)
 - [Přesné souřadnice slotů (JSON)](klany_slot_layout.json)
+- [Samotná ilustrace bez rámečků](klany_pozadi_176x125.png)
 
 V ItemsAdder přiřaď novému obrázku vlastní fontový znak. Zarovnání přímo ve hře zatím nebylo ověřeno.

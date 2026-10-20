@@ -46,7 +46,8 @@
         "y": 18,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 1,
@@ -63,7 +64,8 @@
         "y": 18,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": true
     },
     {
       "index": 2,
@@ -80,7 +82,8 @@
         "y": 18,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 3,
@@ -97,7 +100,8 @@
         "y": 18,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": true
     },
     {
       "index": 4,
@@ -114,7 +118,8 @@
         "y": 18,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": true
     },
     {
       "index": 5,
@@ -131,7 +136,8 @@
         "y": 18,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": true
     },
     {
       "index": 6,
@@ -148,7 +154,8 @@
         "y": 18,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 7,
@@ -165,7 +172,8 @@
         "y": 18,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": true
     },
     {
       "index": 8,
@@ -182,7 +190,8 @@
         "y": 18,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 9,
@@ -199,7 +208,8 @@
         "y": 36,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 10,
@@ -216,7 +226,8 @@
         "y": 36,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 11,
@@ -233,7 +244,8 @@
         "y": 36,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 12,
@@ -250,7 +262,8 @@
         "y": 36,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 13,
@@ -267,7 +280,8 @@
         "y": 36,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 14,
@@ -284,7 +298,8 @@
         "y": 36,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 15,
@@ -301,7 +316,8 @@
         "y": 36,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 16,
@@ -318,7 +334,8 @@
         "y": 36,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 17,
@@ -335,7 +352,8 @@
         "y": 36,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 18,
@@ -352,7 +370,8 @@
         "y": 54,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 19,
@@ -369,7 +388,8 @@
         "y": 54,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": true
     },
     {
       "index": 20,
@@ -386,7 +406,8 @@
         "y": 54,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 21,
@@ -403,7 +424,8 @@
         "y": 54,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 22,
@@ -420,7 +442,8 @@
         "y": 54,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": true
     },
     {
       "index": 23,
@@ -437,7 +460,8 @@
         "y": 54,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 24,
@@ -454,7 +478,8 @@
         "y": 54,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 25,
@@ -471,7 +496,8 @@
         "y": 54,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": true
     },
     {
       "index": 26,
@@ -488,7 +514,8 @@
         "y": 54,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 27,
@@ -505,7 +532,8 @@
         "y": 72,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 28,
@@ -522,7 +550,8 @@
         "y": 72,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 29,
@@ -539,7 +568,8 @@
         "y": 72,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 30,
@@ -556,7 +586,8 @@
         "y": 72,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 31,
@@ -573,7 +604,8 @@
         "y": 72,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 32,
@@ -590,7 +622,8 @@
         "y": 72,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 33,
@@ -607,7 +640,8 @@
         "y": 72,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 34,
@@ -624,7 +658,8 @@
         "y": 72,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 35,
@@ -641,7 +676,8 @@
         "y": 72,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 36,
@@ -658,7 +694,8 @@
         "y": 90,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 37,
@@ -675,7 +712,8 @@
         "y": 90,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": true
     },
     {
       "index": 38,
@@ -692,7 +730,8 @@
         "y": 90,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 39,
@@ -709,7 +748,8 @@
         "y": 90,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 40,
@@ -726,7 +766,8 @@
         "y": 90,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": true
     },
     {
       "index": 41,
@@ -743,7 +784,8 @@
         "y": 90,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 42,
@@ -760,7 +802,8 @@
         "y": 90,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 43,
@@ -777,7 +820,8 @@
         "y": 90,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": true
     },
     {
       "index": 44,
@@ -794,7 +838,8 @@
         "y": 90,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 45,
@@ -811,7 +856,8 @@
         "y": 108,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 46,
@@ -828,7 +874,8 @@
         "y": 108,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 47,
@@ -845,7 +892,8 @@
         "y": 108,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 48,
@@ -862,7 +910,8 @@
         "y": 108,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 49,
@@ -879,7 +928,8 @@
         "y": 108,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 50,
@@ -896,7 +946,8 @@
         "y": 108,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 51,
@@ -913,7 +964,8 @@
         "y": 108,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 52,
@@ -930,7 +982,8 @@
         "y": 108,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     },
     {
       "index": 53,
@@ -947,9 +1000,26 @@
         "y": 108,
         "width": 16,
         "height": 16
-      }
+      },
+      "render_frame": false
     }
   ],
   "title": "KLANY",
-  "style": "Cartoon clans: royal blue and teal, gold trim, heraldic shields and banners."
+  "style": "Full-canvas cartoon pixel-art clan village and fortress illustration; only the11specified slots have framed/dimmed backgrounds.",
+  "visible_slot_count": 11,
+  "active_slot_indices": [
+    1,
+    3,
+    4,
+    5,
+    7,
+    19,
+    22,
+    25,
+    37,
+    40,
+    43
+  ],
+  "full_grid_drawn": false,
+  "background_texture": "klany_pozadi_176x125.png"
 }
