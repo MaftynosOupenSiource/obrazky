@@ -182,3 +182,12 @@ Rank **BOSS** má rozměr **55 × 14 px**. Celou plochu vyplňuje fialové vzoro
 
 - [PNG — originál 55 × 14 px](boss_rank_55x14.png)
 - [Zvětšený PNG náhled](boss_rank_55x14_preview.png)
+
+## Rank SOUL — 55 × 14 px
+
+Rank **SOUL** vyplňuje celých **55 × 14 px**. Má modré a azurové vzorované pozadí, velký ostrý pixelový nápis se světlým přechodem a jemným stínem. Vpravo je malý bílý duch se dvěma výraznými tmavými očima.
+
+[![Zvětšený náhled ranku SOUL](soul_rank_preview.png)](soul_rank_55x14.png)
+
+- [PNG — originál 55 × 14 px](soul_rank_55x14.png)
+- [Zvětšený PNG náhled](soul_rank_preview.png)
