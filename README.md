@@ -185,7 +185,7 @@ Rank **BOSS** má rozměr **55 × 14 px**. Celou plochu vyplňuje fialové vzoro
 
 ## Rank SOUL — 55 × 14 px
 
-Rank **SOUL** vyplňuje celých **55 × 14 px**. Má tlumené tmavě modré pozadí s jemnou texturou a ocelově modrým lemem. Jednobarevný pixelový nápis v odstínu slonové kosti doplňuje nenápadný stín; vpravo je menší šedobílý duch se dvěma tmavými očima. Písmo, symbol i rámeček používají sladěnou paletu bez neonových odstínů.
+Rank **SOUL** vyplňuje celých **55 × 14 px**. Má jemné modrofialové odstíny, nenápadnou texturu a ocelově modrý lem s tlumenou fialovou spodní hranou. Světlé pixelové písmo přechází dole do levandulové; vpravo je šedofialová lebka se dvěma tmavými očima. Nápis i světlé tělo lebky mají shodnou výšku **8 px** a jsou svisle zarovnané. Paleta zůstává bez neonových odstínů.
 
 [![Zvětšený náhled ranku SOUL](soul_rank_preview.png)](soul_rank_55x14.png)
 
