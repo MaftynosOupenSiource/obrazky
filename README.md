@@ -158,3 +158,18 @@ Rámečky se souvislými hnědými horními hranami jsou pouze u **21 používan
 - [Samotná ilustrace bez rámečků](vyber_bojovniku_pozadi_176x125.png)
 
 V ItemsAdder přiřaď novému obrázku vlastní fontový znak. Zarovnání přímo ve hře zatím nebylo ověřeno.
+
+## KLANOVÁ POŠTA — cartoon pixel art 176 × 125 px
+
+Celoplošná cartoon pixelartová ilustrace pro klanové podmenu **KLANOVÁ POŠTA** zobrazuje rušnou fantasy poštu s hromadami dopisů, obálkami poletujícími vzduchem a zásilkami rozházenými na podlaze. Panel má stejný rozměr **176 × 125 px** a stejné souřadnice jako ostatní klanová GUI. Hráčův inventář není součástí obrázku.
+
+Rámečky se souvislými hnědými horními hranami jsou pouze u **30 používaných slotů**: **0–26** pro **27 zpráv** a **47, 49 a 51** pro navigaci. Číslování začíná od nuly. Slot **47** je předchozí stránka, **49** další stránka a **51** návrat domů. Šipky ani ikona domů nejsou do obrázku nakreslené; obsah slotů zobrazuje menu plugin. Ostatní plocha tvoří souvislou ilustraci. Sloty zachovávají rozteč **18 px** a vnitřní prostor **16 × 16 px** pro item.
+
+[![Zvětšený náhled KLANOVÁ POŠTA](klanova_posta_gui_preview.png)](klanova_posta_gui_176x125.png)
+
+- [PNG — originál 176 × 125 px](klanova_posta_gui_176x125.png)
+- [Zvětšený PNG náhled](klanova_posta_gui_preview.png)
+- [Přesné souřadnice slotů (JSON)](klanova_posta_slot_layout.json)
+- [Samotná ilustrace bez rámečků](klanova_posta_pozadi_176x125.png)
+
+V ItemsAdder přiřaď novému obrázku vlastní fontový znak. Zarovnání přímo ve hře zatím nebylo ověřeno.
