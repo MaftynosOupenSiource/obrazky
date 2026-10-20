@@ -73,3 +73,20 @@ Rámečky zachovávají standardní souřadnice, rozteč **18 px** a prostor **1
 - [Samotná ilustrace bez rámečků](klany_pozadi_176x125.png)
 
 V ItemsAdder přiřaď novému obrázku vlastní fontový znak. Zarovnání přímo ve hře zatím nebylo ověřeno.
+
+## TOP KLANY — cartoon pixel art 176 × 125 px
+
+Celoplošná cartoon pixelartová ilustrace pro podmenu **TOP KLANY** má motiv poháru, hradů a stupňů vítězů. Panel má stejný rozměr **176 × 125 px** a stejné souřadnice jako hlavní klanové GUI. Hráčův inventář není součástí obrázku.
+
+Rámečky jsou pouze u **21 používaných slotů**: **0–17** pro hlavy klanů a **45, 49 a 53** pro navigaci. Hlavy, šipky ani ikona domů nejsou do obrázku nakreslené; zobrazuje je menu plugin. Sloty zachovávají rozteč **18 px** a vnitřní prostor **16 × 16 px** pro item.
+
+Číslování začíná od nuly, takže poslední slot šestiřadého menu je **53**. Pozice pravé šipky zadaná jako 54 je proto připravená v pravém dolním rohu na indexu **53**.
+
+[![Zvětšený náhled TOP KLANY](top_klany_gui_preview.png)](top_klany_gui_176x125.png)
+
+- [PNG — originál 176 × 125 px](top_klany_gui_176x125.png)
+- [Zvětšený PNG náhled](top_klany_gui_preview.png)
+- [Přesné souřadnice slotů (JSON)](top_klany_slot_layout.json)
+- [Samotná ilustrace bez rámečků](top_klany_pozadi_176x125.png)
+
+V ItemsAdder přiřaď novému obrázku vlastní fontový znak. Zarovnání přímo ve hře zatím nebylo ověřeno.
