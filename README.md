@@ -42,3 +42,17 @@ Pro standardní souřadnice Minecraft menu se při měřítku **1:1** počítá 
 - [Zvětšený PNG náhled](skladiste_gui_preview.png)
 - [Přesné souřadnice všech slotů (JSON)](skladiste_slot_layout.json)
 - [Pokyny pro zarovnání v menu](skladiste_alignment.md)
+
+## SKLADIŠTĚ s poličkami — horní panel 176 × 125 px
+
+Horní panel zachovává **54 slotů v 6 řadách po 9** na standardních souřadnicích šablony. Dřevěné poličky tvoří rámečky slotů; hráčův inventář do obrázku není zahrnutý. Rozměr **176 × 125 px** odpovídá horní části šestiřadého chest menu: 17 px horní lišty a 108 px mřížky. Sloty mají přesnou rozteč **18 px** a prostor **16 × 16 px** pro každý item.
+
+[![Zvětšený náhled skladiště s poličkami](skladiste_policky_preview.png)](skladiste_policky_176x125.png)
+
+- [PNG — horní panel 176 × 125 px](skladiste_policky_176x125.png)
+- [Zvětšený PNG náhled](skladiste_policky_preview.png)
+- [Přesné souřadnice slotů (JSON)](skladiste_policky_slot_layout.json)
+
+Starší kompaktní varianta 176 × 112 px zůstává dostupná výše. Zarovnání nové varianty přímo ve hře zatím nebylo ověřeno.
+
+Pro tuto variantu s horní lištou při standardním bitmapovém vykreslení použij `scale_ratio: 125`, `y_position: 13` a titulek `&f爩`. Cílem je vykreslení 1:1 s levým horním rohem obrázku na `(0, 0)` vůči menu. Hodnota `y_position` předpokládá přímé mapování na fontový ascent; skutečné zarovnání na serveru zatím nebylo ověřeno.
