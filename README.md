@@ -90,3 +90,20 @@ Rámečky jsou pouze u **21 používaných slotů**: **0–17** pro hlavy klanů
 - [Samotná ilustrace bez rámečků](top_klany_pozadi_176x125.png)
 
 V ItemsAdder přiřaď novému obrázku vlastní fontový znak. Zarovnání přímo ve hře zatím nebylo ověřeno.
+
+## POZVAT HRÁČE — cartoon pixel art 176 × 125 px
+
+Celoplošná cartoon pixelartová ilustrace pro klanové podmenu **POZVAT HRÁČE** má motiv sovy nesoucí zapečetěný dopis a klanového hradu. Panel má stejný rozměr **176 × 125 px** a stejné souřadnice jako ostatní klanová GUI. Hráčův inventář není součástí obrázku.
+
+Rámečky jsou pouze u **39 používaných slotů**: **0–35** pro hráče a **45, 49 a 53** pro navigaci. Hlavy hráčů, šipky ani ikona domů nejsou do obrázku nakreslené; zobrazuje je menu plugin. Sloty zachovávají rozteč **18 px** a vnitřní prostor **16 × 16 px** pro item.
+
+Číslování začíná od nuly, takže poslední slot šestiřadého menu je **53**. Pozice pravé šipky zadaná jako 54 je proto připravená v pravém dolním rohu na indexu **53**.
+
+[![Zvětšený náhled POZVAT HRÁČE](pozvat_hrace_gui_preview.png)](pozvat_hrace_gui_176x125.png)
+
+- [PNG — originál 176 × 125 px](pozvat_hrace_gui_176x125.png)
+- [Zvětšený PNG náhled](pozvat_hrace_gui_preview.png)
+- [Přesné souřadnice slotů (JSON)](pozvat_hrace_slot_layout.json)
+- [Samotná ilustrace bez rámečků](pozvat_hrace_pozadi_176x125.png)
+
+V ItemsAdder přiřaď novému obrázku vlastní fontový znak. Zarovnání přímo ve hře zatím nebylo ověřeno.
