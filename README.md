@@ -29,3 +29,16 @@ Minecraft GUI vyplňuje celých **176 × 112 px**. Má šedý rámeček, horní 
 
 - [PNG — originál 176 × 112 px](dream_shop_gui_176x112.png)
 - [Zvětšený PNG náhled](dream_shop_gui_preview.png)
+
+## SKLADIŠTĚ — 54 slotů, 176 × 112 px
+
+Panel má přesně **176 × 112 px**, vyplňuje celou plochu a obsahuje **54 slotů v 6 řadách po 9**. Uvnitř obrázku není nadpis. Sloty mají rozteč **18 px** a vnitřní prostor **16 × 16 px** pro item.
+
+[![Zvětšený náhled SKLADIŠTĚ](skladiste_gui_preview.png)](skladiste_gui_176x112.png)
+
+Pro standardní souřadnice Minecraft menu se při měřítku **1:1** počítá umístění levého horního rohu obrázku na **(0, +15)** vzhledem k levému hornímu rohu menu. Skutečné zarovnání závisí na vykreslení v použitém menu/font pluginu; ve hře zatím nebylo ověřeno.
+
+- [PNG — originál 176 × 112 px](skladiste_gui_176x112.png)
+- [Zvětšený PNG náhled](skladiste_gui_preview.png)
+- [Přesné souřadnice všech slotů (JSON)](skladiste_slot_layout.json)
+- [Pokyny pro zarovnání v menu](skladiste_alignment.md)
