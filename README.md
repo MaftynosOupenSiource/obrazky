@@ -127,9 +127,9 @@ V ItemsAdder přiřaď novému obrázku vlastní fontový znak. Zarovnání př�
 
 ## ŽÁDOSTI O VSTUP — cartoon pixel art 176 × 125 px
 
-Celoplošná cartoon pixelartová ilustrace pro klanové podmenu **ŽÁDOSTI O VSTUP** zobrazuje frontu zavalitých chlapíků v potrhaném hnědém oblečení. Vpředu stojí hrdinský rytíř, který podává papír úředníkovi s razítkem v budce u hradní brány. Panel má stejný rozměr **176 × 125 px** a stejné souřadnice jako ostatní klanová GUI. Hráčův inventář není součástí obrázku.
+Celoplošná cartoon pixelartová ilustrace pro klanové podmenu **ŽÁDOSTI O VSTUP** zobrazuje větší a detailnější frontu tří zavalitých chlapíků v potrhaném hnědém oblečení; každý drží v ruce vlastní papír. Vpředu stojí hrdinský rytíř, který podává další papír moudrému starci s razítkem v budce u hradní brány. Panel má stejný rozměr **176 × 125 px** a stejné souřadnice jako ostatní klanová GUI. Hráčův inventář není součástí obrázku.
 
-Rámečky se souvislými hnědými horními hranami jsou pouze u **39 používaných slotů**: **0–35** pro hráče a **45, 49 a 53** pro navigaci. Hlavy hráčů, šipky ani ikona domů nejsou do obrázku nakreslené; zobrazuje je menu plugin. Sloty zachovávají rozteč **18 px** a vnitřní prostor **16 × 16 px** pro item.
+Rámečky se souvislými hnědými horními hranami jsou pouze u **21 používaných slotů**: **0–17** pro hráče a **45, 49 a 53** pro navigaci. Hlavy hráčů, šipky ani ikona domů nejsou do obrázku nakreslené; zobrazuje je menu plugin. Pozice **18–35** tvoří souvislou ilustraci bez mřížek, aby postavy lépe vynikly. Sloty zachovávají rozteč **18 px** a vnitřní prostor **16 × 16 px** pro item.
 
 Číslování začíná od nuly, takže poslední slot šestiřadého menu je **53**. Pozice pravé šipky zadaná jako 54 je proto připravená v pravém dolním rohu na indexu **53**.
 
