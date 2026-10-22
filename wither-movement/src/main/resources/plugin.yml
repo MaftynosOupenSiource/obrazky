@@ -1,0 +1,6 @@
+name: SmoothWither
+version: 1.0.0
+main: cz.maftynos.smoothwither.SmoothWitherPlugin
+api-version: '1.20'
+description: Keeps player movement smooth during Wither while preserving native damage.
+author: Maftynos

@@ -1,0 +1,233 @@
+{
+  "server": "Paper1.20.4",
+  "startedAt": "2026-10-22T04:21:37.500Z",
+  "scope": "Actual potion ticks and server/client protocol packets; no rendered or physical-keyboard movement claim.",
+  "checks": [
+    {
+      "name": "two_clients_fully_spawned",
+      "passed": true,
+      "evidence": {
+        "tester": 39,
+        "attacker": 40
+      }
+    },
+    {
+      "name": "wither_damage_and_effect_preserved_without_velocity_resync",
+      "passed": true,
+      "evidence": {
+        "before": 20,
+        "after": 15,
+        "nativeDamagePackets": 5,
+        "playerVelocityPackets": 0,
+        "effectPackets": 1
+      }
+    },
+    {
+      "name": "client_jump_arc_accepted_while_wither_active",
+      "passed": true,
+      "evidence": {
+        "serverPosition": "WitherTester has the following entity data: [1.6d, 64.0d, 0.5d]",
+        "healthBefore": 15,
+        "healthAfter": 14,
+        "nativeDamagePackets": 1,
+        "playerVelocityPackets": 0,
+        "limitation": "Protocol-supplied jump arc; actual keyboard input and rendering are not emulated."
+      }
+    },
+    {
+      "name": "other_damage_health_and_velocity_preserved",
+      "passed": true,
+      "evidence": {
+        "before": 20,
+        "after": 16,
+        "velocityPackets": 1
+      }
+    },
+    {
+      "name": "attacker_knockback_preserved_with_wither_active",
+      "passed": true,
+      "evidence": {
+        "before": 19,
+        "after": 12,
+        "velocityPackets": [
+          {
+            "entityId": 39,
+            "velocity": {
+              "x": -3200,
+              "y": 2886,
+              "z": 0
+            },
+            "receivedAt": 1792642909137
+          }
+        ]
+      }
+    },
+    {
+      "name": "teleport_preserved_with_wither_active",
+      "passed": true,
+      "evidence": {
+        "response": "Teleported WitherTester to 3.500000, 64.000000, 3.500000",
+        "position": {
+          "x": 3.5,
+          "y": 64,
+          "z": 3.5
+        }
+      }
+    },
+    {
+      "name": "clients_remain_connected_without_protocol_errors",
+      "passed": true,
+      "evidence": {}
+    }
+  ],
+  "witherObservation": {
+    "before": 20,
+    "after": 15,
+    "velocities": [],
+    "damages": [
+      {
+        "entityId": 39,
+        "sourceTypeId": 42,
+        "sourceCauseId": 0,
+        "sourceDirectId": 0,
+        "receivedAt": 1792642902631
+      },
+      {
+        "entityId": 39,
+        "sourceTypeId": 42,
+        "sourceCauseId": 0,
+        "sourceDirectId": 0,
+        "receivedAt": 1792642903131
+      },
+      {
+        "entityId": 39,
+        "sourceTypeId": 42,
+        "sourceCauseId": 0,
+        "sourceDirectId": 0,
+        "receivedAt": 1792642903630
+      },
+      {
+        "entityId": 39,
+        "sourceTypeId": 42,
+        "sourceCauseId": 0,
+        "sourceDirectId": 0,
+        "receivedAt": 1792642904130
+      },
+      {
+        "entityId": 39,
+        "sourceTypeId": 42,
+        "sourceCauseId": 0,
+        "sourceDirectId": 0,
+        "receivedAt": 1792642904631
+      }
+    ],
+    "effects": [
+      {
+        "entityId": 39,
+        "effectId": 19,
+        "amplifier": 2,
+        "duration": 160,
+        "hideParticles": 0
+      }
+    ]
+  },
+  "jumpObservation": {
+    "before": 15,
+    "after": 14,
+    "samples": [
+      {
+        "x": 0.6,
+        "y": 64.42,
+        "sentAt": 1792642904898
+      },
+      {
+        "x": 0.7,
+        "y": 64.75,
+        "sentAt": 1792642904948
+      },
+      {
+        "x": 0.8,
+        "y": 65,
+        "sentAt": 1792642904999
+      },
+      {
+        "x": 0.9,
+        "y": 65.16,
+        "sentAt": 1792642905050
+      },
+      {
+        "x": 1,
+        "y": 65.24,
+        "sentAt": 1792642905100
+      },
+      {
+        "x": 1.1,
+        "y": 65.23,
+        "sentAt": 1792642905152
+      },
+      {
+        "x": 1.2000000000000002,
+        "y": 65.15,
+        "sentAt": 1792642905202
+      },
+      {
+        "x": 1.3,
+        "y": 64.98,
+        "sentAt": 1792642905252
+      },
+      {
+        "x": 1.4,
+        "y": 64.73,
+        "sentAt": 1792642905303
+      },
+      {
+        "x": 1.5,
+        "y": 64.4,
+        "sentAt": 1792642905354
+      },
+      {
+        "x": 1.6,
+        "y": 64,
+        "sentAt": 1792642905405
+      }
+    ],
+    "serverPosition": "WitherTester has the following entity data: [1.6d, 64.0d, 0.5d]",
+    "velocities": [],
+    "damages": [
+      {
+        "entityId": 39,
+        "sourceTypeId": 42,
+        "sourceCauseId": 0,
+        "sourceDirectId": 0,
+        "receivedAt": 1792642905130
+      }
+    ]
+  },
+  "attackObservation": {
+    "before": 19,
+    "after": 12,
+    "velocities": [
+      {
+        "entityId": 39,
+        "velocity": {
+          "x": -3200,
+          "y": 2886,
+          "z": 0
+        },
+        "receivedAt": 1792642909137
+      }
+    ],
+    "damages": [
+      {
+        "entityId": 39,
+        "sourceTypeId": 31,
+        "sourceCauseId": 41,
+        "sourceDirectId": 41,
+        "receivedAt": 1792642909135
+      }
+    ]
+  },
+  "passed": true,
+  "effectsCleared": true,
+  "finishedAt": "2026-10-22T04:21:49.396Z"
+}
