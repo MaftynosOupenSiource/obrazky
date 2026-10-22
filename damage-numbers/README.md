@@ -5,6 +5,7 @@
 · [Resource pack](releases/1.0.0/OrangeDamageNumbers-resource-pack.zip?raw=true)
 · [ItemsAdder — připravený ZIP](releases/1.0.0/OrangeDamageNumbers-ItemsAdder-1.0.0.zip?raw=true)
 · [Bílé obdélníky? Oprava načítání fontu](docs/font-loading-fix.md)
+· [Skrytí srdíček při zásahu](docs/no-hit-particles.md)
 
 Plugin pro **Paper/Purpur 1.20.4, Java 17 nebo 21**. Vedle zasaženého hráče
 se objeví poškození po započítání brnění a odolností. Číslo krátce vyletí

@@ -8,3 +8,4 @@ cp target/OrangeDamageNumbers-1.0.0.jar dist/OrangeDamageNumbers-1.0.0.jar
 python3 tools/package_release.py
 python3 tools/package_itemsadder.py
 python3 tools/package_font_fix.py
+python3 tools/package_no_hit_particles.py
