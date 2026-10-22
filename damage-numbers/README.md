@@ -4,6 +4,7 @@
 · [Kompletní balíček s fontem a návodem](releases/1.0.0/OrangeDamageNumbers-1.0.0.zip?raw=true)
 · [Resource pack](releases/1.0.0/OrangeDamageNumbers-resource-pack.zip?raw=true)
 · [ItemsAdder — připravený ZIP](releases/1.0.0/OrangeDamageNumbers-ItemsAdder-1.0.0.zip?raw=true)
+· [Bílé obdélníky? Oprava načítání fontu](docs/font-loading-fix.md)
 
 Plugin pro **Paper/Purpur 1.20.4, Java 17 nebo 21**. Vedle zasaženého hráče
 se objeví poškození po započítání brnění a odolností. Číslo krátce vyletí

@@ -5,6 +5,10 @@
 Vyžaduje již nainstalovaný plugin OrangeDamageNumbers 1.0.0 a funkční
 ItemsAdder na Minecraftu 1.20.4.
 
+Pokud se místo fontu zobrazují bílé obdélníky, použij
+[nastavení s potvrzeným načtením samostatného fontového packu](font-loading-fix.md).
+To umožní ověřit font bez závislosti na sloučení a hostování ItemsAdderu.
+
 1. Rozbal ZIP **do kořene serveru**, kde už je složka `plugins`.
 2. Spusť `/iazip` a nech klienta načíst aktualizovaný ItemsAdder pack.
 3. Spusť `/dn reload`.

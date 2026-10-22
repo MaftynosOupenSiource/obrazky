@@ -33,3 +33,30 @@ failure gives a nonzero process exit code. Resource-pack pixels require a real
 Minecraft client to assess visually. Protocol checks verify font assignment and
 entity behavior, not rendered appearance. Server shutdown/disable is not exercised
 by this harness because the server lifecycle belongs to its caller.
+
+## Focused resource-pack delivery test
+
+Using the same disposable server and dependency, run:
+
+```sh
+NODE_PATH=/tmp/damage-test-client/node_modules \
+  node tools/integration_pack_load.cjs --server-dir /path/to/disposable-paper-server
+```
+
+The test temporarily configures the immutable published 1.0.0 font-pack URL and
+SHA-1 with `font.assume-installed: false`. It checks the actual
+`add_resource_pack` packet, its URL/hash/UUID, and absence of
+`remove_resource_pack` packets. It verifies fallback before loading, after
+`ACCEPTED` or `DOWNLOADED` alone, and after a successful status for an unrelated
+pack UUID. The plugin's own `SUCCESSFULLY_LOADED` enables custom-font numbers and
+`MISS`; `DISCARDED` and `FAILED_RELOAD` restore fallback. An unrelated UUID's
+discard status leaves the plugin's custom font enabled.
+
+The protocol client deliberately **simulates resource-pack status replies**. The
+test does not download, render, or maintain a visual resource-pack stack. Its
+stacking evidence is the additive packet and absence of removal packets, rather
+than a claim that a real client's other pack was rendered successfully.
+
+Results go to `target/pack-delivery-results.json`. The original installed plugin
+configuration is restored, the bot is deopped/disconnected, and cleanup asserts
+that no floating number entities remain.
