@@ -3,6 +3,7 @@
 **Stažení:** [Plugin JAR](releases/1.0.0/OrangeDamageNumbers-1.0.0.jar?raw=true)
 · [Kompletní balíček s fontem a návodem](releases/1.0.0/OrangeDamageNumbers-1.0.0.zip?raw=true)
 · [Resource pack](releases/1.0.0/OrangeDamageNumbers-resource-pack.zip?raw=true)
+· [ItemsAdder — připravený ZIP](releases/1.0.0/OrangeDamageNumbers-ItemsAdder-1.0.0.zip?raw=true)
 
 Plugin pro **Paper/Purpur 1.20.4, Java 17 nebo 21**. Vedle zasaženého hráče
 se objeví poškození po započítání brnění a odolností. Číslo krátce vyletí
@@ -48,6 +49,11 @@ přidává s vlastním UUID k ostatním packům a používá jeho font až po po
 pokud `required` zůstane `false`.
 
 ### Už používáš ItemsAdder nebo jiný serverový pack
+
+Pro ItemsAdder je připravený [ZIP pro přímé rozbalení](releases/1.0.0/OrangeDamageNumbers-ItemsAdder-1.0.0.zip?raw=true).
+Rozbal jej do kořene serveru, spusť `/iazip`, načti aktualizovaný pack a použij
+`/dn reload`. Obsahuje i přednastavený config DamageNumbers; pokud si chceš
+zachovat vlastní nastavení, viz [pokyny k balíčku](docs/itemsadder.md).
 
 Do svého výsledného packu přidej `assets/orange_damage/` z dodaného ZIPu,
 spolu s jeho licencí a souborem `FONT-NOTICE.txt`. **Nepřepisuj** metadata

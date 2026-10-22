@@ -12,6 +12,7 @@ FILES = {
     "font-preview.png": DIST / "font-preview.png",
     "README.md": ROOT / "README.md",
     "docs/font-pack.md": ROOT / "docs/font-pack.md",
+    "docs/itemsadder.md": ROOT / "docs/itemsadder.md",
     "config.example.yml": ROOT / "src/main/resources/config.yml",
 }
 

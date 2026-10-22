@@ -27,6 +27,8 @@ neumí vykreslit; plugin může místo něj zobrazit standardní oranžové čí
 
 ## Sloučení s ItemsAdderem nebo existujícím packem
 
+Pro přímé rozbalení do serveru použij [hotový ItemsAdder balíček](itemsadder.md).
+
 Do výsledného resource packu přidej celý adresář:
 
 ```text
