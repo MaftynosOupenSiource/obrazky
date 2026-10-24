@@ -191,3 +191,18 @@ Rank **SOUL** vyplňuje celých **55 × 14 px** a navazuje na původní modrý r
 
 - [PNG — originál 55 × 14 px](soul_rank_55x14.png)
 - [Zvětšený PNG náhled](soul_rank_preview.png)
+
+## POKLADNICE — cartoon pixel art 176 × 125 px
+
+Celoplošná cartoon pixelartová ilustrace zobrazuje obří fantasy pokladnici s hromadami zlata, truhlami a houbičkami. Panel má stejný rozměr **176 × 125 px** a stejné souřadnice jako ostatní klanová GUI. Hráčův inventář není součástí obrázku.
+
+Rámečky jsou pouze u **9 používaných slotů**: **4** pro vlastníka pokladnice, **10, 12, 14 a 16** pro mince, dreamcoiny, houbičky a ragnaroky a **28, 30, 32 a 34** pro jejich získané množství. Číslování začíná od nuly. Sloty zachovávají rozteč **18 px** a vnitřní prostor **16 × 16 px** pro item. Ostatní plocha tvoří souvislou ilustraci; navigační sloty ani ikony itemů nejsou do obrázku nakreslené.
+
+[![Zvětšený náhled POKLADNICE](pokladnice_gui_preview.png)](pokladnice_gui_176x125.png)
+
+- [PNG — originál 176 × 125 px](pokladnice_gui_176x125.png)
+- [Zvětšený PNG náhled](pokladnice_gui_preview.png)
+- [Přesné souřadnice a role slotů (JSON)](pokladnice_slot_layout.json)
+- [Samotná ilustrace bez rámečků](pokladnice_pozadi_176x125.png)
+
+V ItemsAdder přiřaď novému obrázku vlastní fontový znak. Zarovnání přímo ve hře zatím nebylo ověřeno.
