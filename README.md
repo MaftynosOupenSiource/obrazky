@@ -206,3 +206,12 @@ Rámečky jsou pouze u **9 používaných slotů**: **4** pro vlastníka pokladn
 - [Samotná ilustrace bez rámečků](pokladnice_pozadi_176x125.png)
 
 V ItemsAdder přiřaď novému obrázku vlastní fontový znak. Zarovnání přímo ve hře zatím nebylo ověřeno.
+
+## Houbičky — nabídka 77 za 99 Kč
+
+Čtvercová ilustrace **1254 × 1254 px** ve stylu animovaného fantasy filmu. Postavička v černé kapuci drží pytel oranžových houbiček; zůstává zlatý rám, údaj **77** vlevo nahoře a cenovka **99 Kč** dole. Má kulatější tvary, čistší obrysy a jasnější teplé světlo.
+
+[![Náhled nabídky houbiček](houbicky_77_99kc_cartoon_preview.png)](houbicky_77_99kc_cartoon.png)
+
+- [PNG — originál 1254 × 1254 px](houbicky_77_99kc_cartoon.png)
+- [Menší PNG náhled](houbicky_77_99kc_cartoon_preview.png)
