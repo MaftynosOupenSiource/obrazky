@@ -215,3 +215,12 @@ V ItemsAdder přiřaď novému obrázku vlastní fontový znak. Zarovnání př�
 
 - [PNG — originál 1254 × 1254 px](houbicky_77_99kc_cartoon.png)
 - [Menší PNG náhled](houbicky_77_99kc_cartoon_preview.png)
+
+## Houbičky — nabídka 2799 za 2699 Kč
+
+Čtvercová ilustrace **1254 × 1254 px** ve stylu animovaného fantasy filmu. Šedá postavička s kapucí skáče šipku do kamenného bazénu plného oranžových hříbků. Scénu doplňuje odrazový můstek, kouzelná jeskyně a hříbky létající vzduchem. Zlatý rám uzavírá údaj **2799** vlevo nahoře a cenovku **2699 Kč** dole.
+
+[![Náhled skoku do bazénu hříbků](houbicky_2799_2699kc_cartoon_preview.png)](houbicky_2799_2699kc_cartoon.png)
+
+- [PNG — originál 1254 × 1254 px](houbicky_2799_2699kc_cartoon.png)
+- [Menší PNG náhled](houbicky_2799_2699kc_cartoon_preview.png)
