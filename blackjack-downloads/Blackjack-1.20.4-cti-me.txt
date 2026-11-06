@@ -1,0 +1,25 @@
+Blackjack 2.3.12 pro Minecraft 1.20.4
+
+Vyhlazování je vypnuté pro celou kartu: hodnoty, symboly, obrázky, rub i okraje. Šedý vnitřní lem je odstraněný a obrys je tmavší.
+Nové symboly všech čtyř barev: kříže mají tři kulaté lístky a stopku. Původní vzor 7x7 je odstraněný.
+Karty se kreslí přímo v konečné velikosti i natočení s ostrými obrysy bez vyhlazování, bez dalšího otáčení hotového rastrového obrázku.
+Rohové symboly jsou oddělené od vnitřních. Úprava platí pro všechny tři hráčské ruce i dealera.
+Větší silné rohové hodnoty, bílý podklad a kontrastnější červená zůstávají.
+Dealer má jediný samostatný hologram nad svou řadou: Dealer: 17 (před odkrytím např. Dealer: 10 + ?).
+U hráčských rukou zůstává jen vlastní hodnota / nick vlastníka a rozhodnutí HIT / STAND / DOUBLE DOWN.
+Karty a hologramy vidí i přihlížející do 5 bloků.
+Existující nastavení kamery se nepřepisuje. Vlastní camera.height a camera.distance zůstávají podporované.
+Klientská ruka je během kamery skrytá. Skutečný režim ani inventář hráče se nemění.
+Při odchodu se obnoví pohled, klientský režim i skutečné schopnosti hráče.
+
+Instalace: vypni server, nahraď původní Blackjack JAR a proveď plný restart.
+Ponech plugins/Blackjack s nastavením, stoly a statistikami. V plugins nech jen jednu verzi Blackjacku.
+Resourcepack ani ProtocolLib nejsou potřeba. Je potřeba Vault a Vault ekonomika.
+Pravým klikem na židli nebo /join přisedneš; Shift nebo /leave ukončí sezení.
+
+Velikost karet se nastavuje přes display.map-card-height, rozsah 0.4 az 0.72.
+Staré display.card.scale / spacing / player.height / dealer.height se nepoužívají.
+Kamera používá první osobu; F5 může pohled dále posunout.
+
+47 automatických testů prošlo. Nový vzhled nebyl vizuálně ověřen v Minecraft klientovi.
+Soubory: https://github.com/MaftynosOupenSiource/obrazky/tree/blackjack-2.3.12-download/blackjack-downloads
