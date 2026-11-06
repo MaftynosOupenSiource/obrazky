@@ -1,0 +1,1089 @@
+{
+  "texture": "pokladnice_gui_176x125.png",
+  "width": 176,
+  "height": 125,
+  "coordinate_system": "Top-left origin, positive y goes down; zero-based slot indices.",
+  "scope": "Upper six-row chest area only; excludes player inventory and hotbar.",
+  "header_height": 17,
+  "rows": 6,
+  "columns": 9,
+  "slot_count": 54,
+  "grid": {
+    "x": 7,
+    "y": 17,
+    "width": 162,
+    "height": 108,
+    "cell_width": 18,
+    "cell_height": 18,
+    "item_inset": 1,
+    "item_width": 16,
+    "item_height": 16
+  },
+  "placement_in_standard_container": {
+    "x": 0,
+    "y": 0,
+    "scale": 1,
+    "verified_in_game": false
+  },
+  "standard_bitmap_font_target": {
+    "height": 125,
+    "ascent": 13,
+    "assumption": "Standard title y6 and bitmap baseline7; use actual generated provider to verify ItemsAdder field mapping."
+  },
+  "slots": [
+    {
+      "index": 0,
+      "row": 0,
+      "column": 0,
+      "cell": {
+        "x": 7,
+        "y": 17,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 8,
+        "y": 18,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "column": 1,
+      "cell": {
+        "x": 25,
+        "y": 17,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 26,
+        "y": 18,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "column": 2,
+      "cell": {
+        "x": 43,
+        "y": 17,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 44,
+        "y": 18,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "column": 3,
+      "cell": {
+        "x": 61,
+        "y": 17,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 62,
+        "y": 18,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "column": 4,
+      "cell": {
+        "x": 79,
+        "y": 17,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 80,
+        "y": 18,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": true,
+      "role": "treasury_owner"
+    },
+    {
+      "index": 5,
+      "row": 0,
+      "column": 5,
+      "cell": {
+        "x": 97,
+        "y": 17,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 98,
+        "y": 18,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 6,
+      "row": 0,
+      "column": 6,
+      "cell": {
+        "x": 115,
+        "y": 17,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 116,
+        "y": 18,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 7,
+      "row": 0,
+      "column": 7,
+      "cell": {
+        "x": 133,
+        "y": 17,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 134,
+        "y": 18,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 8,
+      "row": 0,
+      "column": 8,
+      "cell": {
+        "x": 151,
+        "y": 17,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 152,
+        "y": 18,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "column": 0,
+      "cell": {
+        "x": 7,
+        "y": 35,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 8,
+        "y": 36,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 10,
+      "row": 1,
+      "column": 1,
+      "cell": {
+        "x": 25,
+        "y": 35,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 26,
+        "y": 36,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": true,
+      "role": "treasury_coins"
+    },
+    {
+      "index": 11,
+      "row": 1,
+      "column": 2,
+      "cell": {
+        "x": 43,
+        "y": 35,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 44,
+        "y": 36,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 12,
+      "row": 1,
+      "column": 3,
+      "cell": {
+        "x": 61,
+        "y": 35,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 62,
+        "y": 36,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": true,
+      "role": "treasury_dreamcoins"
+    },
+    {
+      "index": 13,
+      "row": 1,
+      "column": 4,
+      "cell": {
+        "x": 79,
+        "y": 35,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 80,
+        "y": 36,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 14,
+      "row": 1,
+      "column": 5,
+      "cell": {
+        "x": 97,
+        "y": 35,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 98,
+        "y": 36,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": true,
+      "role": "treasury_mushrooms"
+    },
+    {
+      "index": 15,
+      "row": 1,
+      "column": 6,
+      "cell": {
+        "x": 115,
+        "y": 35,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 116,
+        "y": 36,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 16,
+      "row": 1,
+      "column": 7,
+      "cell": {
+        "x": 133,
+        "y": 35,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 134,
+        "y": 36,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": true,
+      "role": "treasury_ragnaroks"
+    },
+    {
+      "index": 17,
+      "row": 1,
+      "column": 8,
+      "cell": {
+        "x": 151,
+        "y": 35,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 152,
+        "y": 36,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 18,
+      "row": 2,
+      "column": 0,
+      "cell": {
+        "x": 7,
+        "y": 53,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 8,
+        "y": 54,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 19,
+      "row": 2,
+      "column": 1,
+      "cell": {
+        "x": 25,
+        "y": 53,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 26,
+        "y": 54,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 20,
+      "row": 2,
+      "column": 2,
+      "cell": {
+        "x": 43,
+        "y": 53,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 44,
+        "y": 54,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 21,
+      "row": 2,
+      "column": 3,
+      "cell": {
+        "x": 61,
+        "y": 53,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 62,
+        "y": 54,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 22,
+      "row": 2,
+      "column": 4,
+      "cell": {
+        "x": 79,
+        "y": 53,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 80,
+        "y": 54,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 23,
+      "row": 2,
+      "column": 5,
+      "cell": {
+        "x": 97,
+        "y": 53,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 98,
+        "y": 54,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 24,
+      "row": 2,
+      "column": 6,
+      "cell": {
+        "x": 115,
+        "y": 53,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 116,
+        "y": 54,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 25,
+      "row": 2,
+      "column": 7,
+      "cell": {
+        "x": 133,
+        "y": 53,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 134,
+        "y": 54,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 26,
+      "row": 2,
+      "column": 8,
+      "cell": {
+        "x": 151,
+        "y": 53,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 152,
+        "y": 54,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 27,
+      "row": 3,
+      "column": 0,
+      "cell": {
+        "x": 7,
+        "y": 71,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 8,
+        "y": 72,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 28,
+      "row": 3,
+      "column": 1,
+      "cell": {
+        "x": 25,
+        "y": 71,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 26,
+        "y": 72,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": true,
+      "role": "treasury_coins_earned"
+    },
+    {
+      "index": 29,
+      "row": 3,
+      "column": 2,
+      "cell": {
+        "x": 43,
+        "y": 71,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 44,
+        "y": 72,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 30,
+      "row": 3,
+      "column": 3,
+      "cell": {
+        "x": 61,
+        "y": 71,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 62,
+        "y": 72,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": true,
+      "role": "treasury_dreamcoins_earned"
+    },
+    {
+      "index": 31,
+      "row": 3,
+      "column": 4,
+      "cell": {
+        "x": 79,
+        "y": 71,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 80,
+        "y": 72,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 32,
+      "row": 3,
+      "column": 5,
+      "cell": {
+        "x": 97,
+        "y": 71,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 98,
+        "y": 72,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": true,
+      "role": "treasury_mushrooms_earned"
+    },
+    {
+      "index": 33,
+      "row": 3,
+      "column": 6,
+      "cell": {
+        "x": 115,
+        "y": 71,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 116,
+        "y": 72,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 34,
+      "row": 3,
+      "column": 7,
+      "cell": {
+        "x": 133,
+        "y": 71,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 134,
+        "y": 72,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": true,
+      "role": "treasury_ragnaroks_earned"
+    },
+    {
+      "index": 35,
+      "row": 3,
+      "column": 8,
+      "cell": {
+        "x": 151,
+        "y": 71,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 152,
+        "y": 72,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 36,
+      "row": 4,
+      "column": 0,
+      "cell": {
+        "x": 7,
+        "y": 89,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 8,
+        "y": 90,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 37,
+      "row": 4,
+      "column": 1,
+      "cell": {
+        "x": 25,
+        "y": 89,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 26,
+        "y": 90,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 38,
+      "row": 4,
+      "column": 2,
+      "cell": {
+        "x": 43,
+        "y": 89,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 44,
+        "y": 90,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 39,
+      "row": 4,
+      "column": 3,
+      "cell": {
+        "x": 61,
+        "y": 89,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 62,
+        "y": 90,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 40,
+      "row": 4,
+      "column": 4,
+      "cell": {
+        "x": 79,
+        "y": 89,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 80,
+        "y": 90,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 41,
+      "row": 4,
+      "column": 5,
+      "cell": {
+        "x": 97,
+        "y": 89,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 98,
+        "y": 90,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 42,
+      "row": 4,
+      "column": 6,
+      "cell": {
+        "x": 115,
+        "y": 89,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 116,
+        "y": 90,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 43,
+      "row": 4,
+      "column": 7,
+      "cell": {
+        "x": 133,
+        "y": 89,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 134,
+        "y": 90,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 44,
+      "row": 4,
+      "column": 8,
+      "cell": {
+        "x": 151,
+        "y": 89,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 152,
+        "y": 90,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 45,
+      "row": 5,
+      "column": 0,
+      "cell": {
+        "x": 7,
+        "y": 107,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 8,
+        "y": 108,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 46,
+      "row": 5,
+      "column": 1,
+      "cell": {
+        "x": 25,
+        "y": 107,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 26,
+        "y": 108,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 47,
+      "row": 5,
+      "column": 2,
+      "cell": {
+        "x": 43,
+        "y": 107,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 44,
+        "y": 108,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 48,
+      "row": 5,
+      "column": 3,
+      "cell": {
+        "x": 61,
+        "y": 107,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 62,
+        "y": 108,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 49,
+      "row": 5,
+      "column": 4,
+      "cell": {
+        "x": 79,
+        "y": 107,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 80,
+        "y": 108,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 50,
+      "row": 5,
+      "column": 5,
+      "cell": {
+        "x": 97,
+        "y": 107,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 98,
+        "y": 108,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 51,
+      "row": 5,
+      "column": 6,
+      "cell": {
+        "x": 115,
+        "y": 107,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 116,
+        "y": 108,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 52,
+      "row": 5,
+      "column": 7,
+      "cell": {
+        "x": 133,
+        "y": 107,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 134,
+        "y": 108,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    },
+    {
+      "index": 53,
+      "row": 5,
+      "column": 8,
+      "cell": {
+        "x": 151,
+        "y": 107,
+        "width": 18,
+        "height": 18
+      },
+      "item": {
+        "x": 152,
+        "y": 108,
+        "width": 16,
+        "height": 16
+      },
+      "render_frame": false,
+      "role": "background"
+    }
+  ],
+  "title": "POKLADNICE",
+  "style": "Full-canvas cartoon pixel-art giant fantasy treasure room filled with piles of gold, treasure chests and mushrooms. Only the nine configured treasury slots have framed/dimmed backgrounds; all other areas form a continuous illustration. Item icons are supplied by the menu plugin, not drawn in this texture.",
+  "visible_slot_count": 9,
+  "active_slot_indices": [
+    4,
+    10,
+    12,
+    14,
+    16,
+    28,
+    30,
+    32,
+    34
+  ],
+  "full_grid_drawn": false,
+  "background_texture": "pokladnice_pozadi_176x125.png",
+  "slot_index_note": "The menu has 54 slots indexed 0 through 53.",
+  "treasury_slot_indices": {
+    "treasury_owner": 4,
+    "treasury_coins": 10,
+    "treasury_dreamcoins": 12,
+    "treasury_mushrooms": 14,
+    "treasury_ragnaroks": 16,
+    "treasury_coins_earned": 28,
+    "treasury_dreamcoins_earned": 30,
+    "treasury_mushrooms_earned": 32,
+    "treasury_ragnaroks_earned": 34
+  }
+}

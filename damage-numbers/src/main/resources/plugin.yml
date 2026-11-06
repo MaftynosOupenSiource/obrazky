@@ -1,0 +1,16 @@
+name: OrangeDamageNumbers
+version: 1.0.0
+main: cz.maftynos.damagenumbers.DamageNumbersPlugin
+api-version: '1.20'
+description: Animated orange brush damage numbers and MISS for Paper 1.20.4.
+author: Maftynos
+commands:
+  damagenumbers:
+    aliases: [dn]
+    description: Sprava a nahled cisel poskozeni.
+    usage: /<command> <test [damage]|reload|pack>
+    permission: damagenumbers.admin
+permissions:
+  damagenumbers.admin:
+    description: Testovani, nacteni konfigurace a resource packu.
+    default: op

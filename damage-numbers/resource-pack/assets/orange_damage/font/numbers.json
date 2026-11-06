@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "orange_damage:font/numbers.png",
+      "ascent": 13,
+      "height": 16,
+      "chars": [
+        "0123456789.-MIS"
+      ]
+    }
+  ]
+}

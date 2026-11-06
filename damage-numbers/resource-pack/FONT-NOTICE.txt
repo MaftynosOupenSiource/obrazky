@@ -1,0 +1,5 @@
+Permanent Marker by Font Diner, Copyright (c) 2010 by Font Diner, Inc.
+Licensed under the Apache License, Version 2.0; see LICENSE-PermanentMarker.txt.
+Source: https://github.com/google/fonts/tree/main/apache/permanentmarker
+Modified for this pack: rendered as bitmap glyphs, orange gradient,
+black outline, lower-right shadow, and sparse brush-wear cuts.

@@ -1,0 +1,115 @@
+{
+  "server": "Paper1.20.4",
+  "startedAt": "2026-10-22T03:32:37.375Z",
+  "scope": "Real server packets with simulated resource-pack status replies; no rendered-client or actual client download claim.",
+  "packUrl": "https://raw.githubusercontent.com/MaftynosOupenSiource/obrazky/c525a7eb7113c22673e3c60298b548d33c20dda5/damage-numbers/releases/1.0.0/OrangeDamageNumbers-resource-pack.zip",
+  "packSha1": "40f68175beec7e3b0738a9691c7332ef6a866e09",
+  "packId": "f493ba49-6fce-3b70-ada8-f8a130a729a2",
+  "checks": [
+    {
+      "name": "pack_offer_has_exact_url_hash_uuid_and_is_additive",
+      "passed": true,
+      "evidence": {
+        "packet": "add_resource_pack",
+        "uuid": "f493ba49-6fce-3b70-ada8-f8a130a729a2",
+        "url": "https://raw.githubusercontent.com/MaftynosOupenSiource/obrazky/c525a7eb7113c22673e3c60298b548d33c20dda5/damage-numbers/releases/1.0.0/OrangeDamageNumbers-resource-pack.zip",
+        "hash": "40f68175beec7e3b0738a9691c7332ef6a866e09",
+        "forced": false,
+        "removePackets": 0,
+        "limitation": "No existing visual resource-pack stack was loaded in this protocol-only client."
+      }
+    },
+    {
+      "name": "fallback_before_pack_loaded",
+      "passed": true,
+      "evidence": {
+        "customFont": false,
+        "entityText": "Text Display has the following entity data: '{\"text\":\"12.5\",\"color\":\"#ff9a16\"}'"
+      }
+    },
+    {
+      "name": "accepted_does_not_enable_custom_font",
+      "passed": true,
+      "evidence": {
+        "customFont": false,
+        "entityText": "Text Display has the following entity data: '{\"text\":\"12.5\",\"color\":\"#ff9a16\"}'"
+      }
+    },
+    {
+      "name": "downloaded_does_not_enable_custom_font",
+      "passed": true,
+      "evidence": {
+        "customFont": false,
+        "entityText": "Text Display has the following entity data: '{\"text\":\"12.5\",\"color\":\"#ff9a16\"}'"
+      }
+    },
+    {
+      "name": "unrelated_uuid_success_does_not_enable_custom_font",
+      "passed": true,
+      "evidence": {
+        "customFont": false,
+        "entityText": "Text Display has the following entity data: '{\"text\":\"12.5\",\"color\":\"#ff9a16\"}'"
+      }
+    },
+    {
+      "name": "own_success_enables_custom_font",
+      "passed": true,
+      "evidence": {
+        "customFont": true,
+        "entityText": "Text Display has the following entity data: '{\"text\":\"12.5\",\"font\":\"orange_damage:numbers\",\"color\":\"white\"}'"
+      }
+    },
+    {
+      "name": "own_success_enables_custom_miss",
+      "passed": true,
+      "evidence": {
+        "customFont": true,
+        "entityText": "Text Display has the following entity data: '{\"text\":\"MISS\",\"font\":\"orange_damage:numbers\",\"color\":\"white\"}'"
+      }
+    },
+    {
+      "name": "unrelated_uuid_discard_does_not_disable_custom_font",
+      "passed": true,
+      "evidence": {
+        "customFont": true,
+        "entityText": "Text Display has the following entity data: '{\"text\":\"12.5\",\"font\":\"orange_damage:numbers\",\"color\":\"white\"}'"
+      }
+    },
+    {
+      "name": "own_discard_restores_fallback",
+      "passed": true,
+      "evidence": {
+        "customFont": false,
+        "entityText": "Text Display has the following entity data: '{\"text\":\"12.5\",\"color\":\"#ff9a16\"}'"
+      }
+    },
+    {
+      "name": "own_success_reenables_custom_font",
+      "passed": true,
+      "evidence": {
+        "customFont": true,
+        "entityText": "Text Display has the following entity data: '{\"text\":\"12.5\",\"font\":\"orange_damage:numbers\",\"color\":\"white\"}'"
+      }
+    },
+    {
+      "name": "own_failed_reload_restores_fallback",
+      "passed": true,
+      "evidence": {
+        "customFont": false,
+        "entityText": "Text Display has the following entity data: '{\"text\":\"12.5\",\"color\":\"#ff9a16\"}'"
+      }
+    },
+    {
+      "name": "no_pack_remove_packet_during_reoffers_or_status_changes",
+      "passed": true,
+      "evidence": {
+        "addPackets": 11,
+        "removePackets": 0
+      }
+    }
+  ],
+  "passed": true,
+  "configurationRestored": true,
+  "noEntitiesRemaining": true,
+  "finishedAt": "2026-10-22T03:32:40.588Z"
+}

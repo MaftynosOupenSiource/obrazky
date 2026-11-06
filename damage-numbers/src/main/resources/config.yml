@@ -1,0 +1,37 @@
+# Paper/Purpur 1.20.4. 20 ticks = 1 second. Damage is AFTER armor/resistance.
+targets:
+  players: true
+  mobs: false
+  # False also shows fall, fire, poison and other environmental damage.
+  combat-only: false
+
+numbers:
+  # Minecraft damage points: 2 damage = 1 heart.
+  hearts: false
+  decimals: 1
+  show-miss: true
+
+animation:
+  lifetime-ticks: 24
+  rise-blocks: 0.65
+  horizontal-drift: 0.12
+  side-offset: 0.7
+  height-offset: 1.15
+  scale: 1.0
+  viewer-range: 24.0
+  # Limits client/entity load during large fights; oldest numbers are removed first.
+  max-active: 80
+
+font:
+  # Enable ONLY after merging the supplied assets into your existing server pack
+  # (e.g. ItemsAdder) and ensuring all clients loaded that pack.
+  # Otherwise the plugin uses custom glyphs only after its own pack loads successfully.
+  assume-installed: false
+
+resource-pack:
+  # Direct download URL of the ZIP, NOT a web page. Empty = no automatic offer.
+  url: ''
+  # SHA-1 of the exact ZIP hosted at that URL; see the supplied .sha1 file.
+  sha1: ''
+  required: false
+  prompt: 'Oranžová čísla poškození a MISS'
