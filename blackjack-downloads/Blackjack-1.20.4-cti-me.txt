@@ -1,0 +1,27 @@
+Blackjack 2.3.15 pro Minecraft 1.20.4
+
+HIT / STAND / DOUBLE ovládáš pohybem myši doleva / střed / doprava. Levý i pravý klik potvrdí vybranou akci.
+Menu je přes title vidět jen hráči na tahu. Nový tah začíná na STAND; po HIT se DOUBLE znepřístupní.
+Více packetů z jednoho kliknutí se sloučí do jedné akce. Po odchodu se menu i obsluha uklidí.
+Příkazy /hit, /stand a /doubledown fungují i nadále.
+
+Boční karty jsou srovnané stejně jako dealerovy a používají stejnou pixelovou mřížku.
+Hologram dealera je o 50 % větší a těsně nad jeho kartami. Hráčské hologramy jsou lehce nad vlastními kartami.
+Poloha textu se počítá podle nastavené velikosti karet. Stávající nastavení kamery se zachová.
+Hráči i přihlížející do 5 bloků vidí všechny ruce a hologramy. Skrytá dealerova karta zůstává utajená.
+Eso: A+2 = 3/13; A+A = 2/12; A+2+9 = 12.
+
+Instalace: vypni server, nahraď starý Blackjack JAR a proveď plný restart.
+Ponech plugins/Blackjack s nastavením, stoly a statistikami. V plugins nech jen jednu verzi Blackjacku.
+Resourcepack ani ProtocolLib nejsou potřeba. Je potřeba Vault a Vault ekonomika.
+Pravým klikem na židli nebo /join přisedneš; Shift nebo /leave ukončí sezení.
+Pro pevný pohled a ovládání myší používej kameru v první osobě.
+
+controls:
+  enabled: true
+  mouse-step-degrees: 8
+  click-cooldown-ms: 300
+
+64 automatických testů prošlo včetně simulace síťového vstupu přes Netty.
+Ovládání myší a hologramy ještě nebyly ověřené s připojeným Minecraft klientem.
+Soubory: https://github.com/MaftynosOupenSiource/obrazky/tree/blackjack-2.3.15-download/blackjack-downloads
