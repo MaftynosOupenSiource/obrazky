@@ -1,0 +1,26 @@
+Blackjack 2.3.9 pro Minecraft 1.20.4
+
+Kamera je přesně nad středem stolu a míří kolmo dolů (90 stupňů).
+Výchozí výška je snížená z 6.4 na 4.8 bloku nad základnou stolu (přibližně 3.8 nad kartami).
+Staré výchozí nastavení se aktualizuje automaticky. Camera.distance se už nepoužívá.
+Menší hologramy jsou ve volném prostoru nad bočními rukami a pod prostřední rukou, mimo karty hráčů a dealera.
+Ruka z první osoby zůstává skrytá. Skutečný režim ani inventář hráče se nemění.
+Při odchodu se obnoví pohled, klientský režim i skutečné schopnosti hráče.
+Vlastní sedící postava má stejný skin a výbavu; ostatní hráči vidí skutečnou postavu.
+Dealerovy karty jsou společně uprostřed u dealera. Karty a hologramy vidí i přihlížející do 5 bloků.
+HIT v hologramu mizí po 0.5 sekundy, STAND a DOUBLE DOWN zůstávají pro dané kolo.
+
+Instalace: vypni server, nahraď původní Blackjack JAR a proveď plný restart.
+Ponech plugins/Blackjack s nastavením, stoly a statistikami. V plugins nech jen jednu verzi Blackjacku.
+Resourcepack ani ProtocolLib nejsou potřeba. Je potřeba Vault a Vault ekonomika.
+Pravým klikem na židli nebo /join přisedneš; Shift nebo /leave ukončí sezení.
+
+camera:
+  enabled: true
+  height: 4.8
+  fit-ceiling: true
+  view-version: 3
+
+Kamera používá první osobu; F5 může pohled dále posunout.
+Nové umístění kamery a hologramů zde ještě nebylo vizuálně ověřeno v Minecraft klientovi.
+Soubory: https://github.com/MaftynosOupenSiource/obrazky/tree/blackjack-2.3.9-download/blackjack-downloads
