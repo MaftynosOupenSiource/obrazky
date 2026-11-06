@@ -1,0 +1,41 @@
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/workspace/tools/m2/net/bytebuddy/byte-buddy-agent/1.15.4/byte-buddy-agent-1.15.4.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+╷
+├─ JUnit Platform Suite ✔
+├─ JUnit Jupiter ✔
+│  ├─ ExpressionCacheTest ✔
+│  │  ├─ finiteNegativeAndZeroResultsRemainValid() ✔
+│  │  ├─ invalidResultsAreNotCached() ✔
+│  │  ├─ separatesExpressionsAndInjectedContexts() ✔
+│  │  ├─ zeroTtlDoesNotReuseResult() ✔
+│  │  ├─ reusesValidCachedResult() ✔
+│  │  ├─ evaluatorFailureDoesNotPoisonCache() ✔
+│  │  ├─ anUnfinishedWorkerForSameKeyDoesNotBlockCaller() ✔
+│  │  ├─ configuredExpirationRecomputes() ✔
+│  │  ├─ evaluatesOnCallingThread() ✔
+│  │  ├─ completesEvenWhenCommonPoolCannotAcceptWorkImmediately() ✔
+│  │  └─ numericLiteralBypassesEvaluator() ✔
+│  └─ PetDisplayTest ✔
+│     ├─ individualPositionUpdatesDoNotScanEveryPetsSmoothingCache() ✔
+│     ├─ displayTickSweepsSharedCacheOnceEvenWithNoOnlinePlayers() ✔
+│     ├─ expirationRetainsExactFiveSecondBoundaryAndRemovesOnlyOlderEntries() ✔
+│     └─ warmedFollowPositionRetainsOriginalSmoothingAndHorizontalOffset() ✔
+└─ JUnit Vintage ✔
+
+Test run finished after 1616 ms
+[         5 containers found      ]
+[         0 containers skipped    ]
+[         5 containers started    ]
+[         0 containers aborted    ]
+[         5 containers successful ]
+[         0 containers failed     ]
+[        15 tests found           ]
+[         0 tests skipped         ]
+[        15 tests started         ]
+[         0 tests aborted         ]
+[        15 tests successful      ]
+[         0 tests failed          ]
+

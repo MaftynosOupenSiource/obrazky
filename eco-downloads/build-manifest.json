@@ -1,0 +1,26 @@
+[
+  {
+    "file": "eco-6.76.2-dreamland-fix1.jar",
+    "sha256": "78cb826ca0d099bb0efb5f9c5e87e713770410c94a67b63c2c06841cd897675d",
+    "changes": [
+      "Evaluate expression cache misses on the calling thread instead of dispatching and joining.",
+      "Evaluate integrations outside cache computation locks; retain original cache keys and TTL."
+    ],
+    "replaced_classes": [
+      "com/willfp/eco/internal/spigot/math/DelegatedExpressionHandler.class"
+    ]
+  },
+  {
+    "file": "EcoPets-2.75.1-dreamland-fix1.jar",
+    "sha256": "59ed24e6fcb8f56ccc8e8d9845fed9d2841e7df805bb9aa66f416d1713e21553",
+    "changes": [
+      "Clean up shared movement timestamps once per display tick instead of once per pet.",
+      "Remove expired entries without allocating a temporary filtered map."
+    ],
+    "replaced_classes": [
+      "com/willfp/ecopets/pets/PetDisplay$Companion.class",
+      "com/willfp/ecopets/pets/PetDisplay$PetArmorStand.class",
+      "com/willfp/ecopets/pets/PetDisplay.class"
+    ]
+  }
+]
