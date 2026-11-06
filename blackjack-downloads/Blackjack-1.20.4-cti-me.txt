@@ -1,0 +1,24 @@
+Blackjack 2.3.7 pro Minecraft 1.20.4
+
+Kamera shora pro všechny účastníky. Vlastní sedící postava zůstává viditelná díky klientské kopii se stejným skinem a výbavou.
+Při odchodu, teleportu, smrti nebo vypnutí pluginu se kamera vrací na hráče.
+Židle i sezení jsou zvýšené o 0.15 bloku proti 2.3.6.
+Dealerovy karty leží v jedné společné řadě uprostřed u dealera.
+Hráči i přihlížející do 5 bloků vidí všechny hráčské ruce a hologramy.
+Rozhodnutí STAND / HIT / DOUBLE DOWN zůstávají v hologramu, HIT jen 0.5 sekundy.
+
+Instalace: vypni server, nahraď původní Blackjack JAR a proveď plný restart.
+Ponech plugins/Blackjack s nastavením, stoly a statistikami. V plugins nech jen jednu verzi Blackjacku.
+Resourcepack ani ProtocolLib nejsou potřeba. Je potřeba Vault a Vault ekonomika.
+Pravým klikem na židli nebo /join přisedneš; Shift nebo /leave ukončí sezení.
+
+Volitelné nastavení v config.yml:
+camera:
+  enabled: true
+  height: 4.6
+  distance: 3.1
+  fit-ceiling: true
+
+Kamera používá první osobu; F5 může pohled dále posunout.
+Nová kamera a výška sezení zde ještě nebyly vizuálně ověřeny v Minecraft klientovi.
+Podrobnosti: https://github.com/MaftynosOupenSiource/PvpEvent/tree/main/BlackjackCompat
