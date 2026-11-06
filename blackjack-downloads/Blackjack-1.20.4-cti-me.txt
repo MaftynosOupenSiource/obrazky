@@ -1,0 +1,38 @@
+Blackjack 2.3.20 pro Minecraft 1.20.4
+
+Ochrana peněz: serverová evidence podle UUID hráče a kola, jednorázové výplaty/refundace.
+DOUBLE přidá sázku jen po potvrzeném stržení; staré kliky a callbacky neplatí pro nové kolo.
+Journal plugins/Blackjack/money-journal.log uchovává záměry a výsledky převodů.
+Nejasná platba se neopakuje a zůstává zablokovaná k ručnímu ověření. Journal uchovej při aktualizaci.
+Podrobný audit a provozní omezení jsou v souboru AUDIT-MONEY.md v ZIPu.
+Nové stoly se natočí podle pohledu při /createtable do všech čtyř světových stran.
+
+Od dalšího kola je výchozí volba Opakovat sázku (poslední vybraná základní částka).
+Kliknutím ji znovu potvrdíš. Ostatní částky i Odejít zůstávají dostupné. Bez potvrzení se nic nestrhne.
+Částka se pamatuje během sezení samostatně pro každého hráče; DOUBLE uloženou základní sázku nemění.
+A + 10/J/Q/K zobrazí BLACKJACK a tah hráče se automaticky přeskočí bez HIT / STAND / DOUBLE.
+Po STAND nebo DOUBLE se ukáže pouze nejlepší platný součet, např. A + 2 = 13.
+Dealer po skončení dobírání také ukazuje jediný součet, např. A + 4 + 3 = 18.
+
+Přisednutí je možné kdykoliv, i během hry. Nově přisedlý hráč hraje od dalšího rozdání.
+Před rozdáním se automaticky otevře výběr sázky pohybem myši a kliknutím:
+Odejít / 50,000 / 250,000 / 500,000 / 1,000,000 / 2,500,000.
+Vybraná přesná částka je v subtitle, všechny volby v action baru. Hlavní title je prázdný.
+Lhůta je 20 sekund (betting.selection-seconds); pokud všichni vsadí, začne hra ihned.
+Kdo vsadil, hraje; nevsazení zůstanou sedět a čekají na další kolo. Časovač neaktivity sázejícího nevyhodí.
+Potvrzenou sázku nelze měnit a strhává se jednou. Při odchodu před rozdáním se vrátí.
+Po rozdání sázka při odchodu či odpojení propadá, také po odkrytí dealera a těsně před verdiktem.
+Původní game-settings.refund-on-leave: true už nemůže vrátit rozehranou sázku.
+Odešlý hráč nedostane následnou výplatu. Při DOUBLE propadne celá vsazená částka. Po vyhodnocení za 2 sekundy začíná další výběr.
+Karty, boxy i židle jsou narovnané; hráč sedí přímo za svou rukou a čelem ke kartám.
+Vlastní nastavení kamery se nepřepisuje. Dealerův hologram zůstává větší a nad jeho kartami.
+
+Instalace: vypni server, nahraď starý Blackjack JAR a server zapni.
+Ponech plugins/Blackjack s nastavením, stoly a statistikami. V plugins nech jen jednu verzi Blackjacku.
+Resourcepack ani ProtocolLib nejsou potřeba. Je potřeba Vault a Vault ekonomika.
+Pravým klikem na židli nebo /join přisedneš; Shift, Odejít nebo /leave ukončí sezení.
+Při vypnuté kameře lze sázet příkazem /bet částka; /start otevře výběr sázky.
+
+162 automatických testů zahrnuje čekání na sázky, pozdní přisednutí, stržení a vracení peněz i síťový vstup.
+Nové zobrazení nebylo ověřené s připojeným Minecraft klientem.
+Soubory: https://github.com/MaftynosOupenSiource/obrazky/tree/blackjack-2.3.20-download/blackjack-downloads
