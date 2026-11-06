@@ -1,0 +1,22 @@
+Blackjack 2.3.17 pro Minecraft 1.20.4
+
+Přisednutí je možné kdykoliv, i během hry. Nově přisedlý hráč hraje od dalšího rozdání.
+Před rozdáním se automaticky otevře výběr sázky pohybem myši a kliknutím:
+Odejít / 50,000 / 250,000 / 500,000 / 1,000,000 / 2,500,000.
+Vybraná přesná částka je v subtitle, všechny volby v action baru. Hlavní title je prázdný.
+Lhůta je 20 sekund (betting.selection-seconds); pokud všichni vsadí, začne hra ihned.
+Kdo vsadil, hraje; nevsazení zůstanou sedět a čekají na další kolo. Časovač neaktivity sázejícího nevyhodí.
+Potvrzenou sázku nelze měnit a strhává se jednou. Při odchodu před rozdáním se vrátí.
+Po rozdání platí původní game-settings.refund-on-leave. Po vyhodnocení za 2 sekundy začíná další výběr.
+Karty, boxy i židle jsou narovnané; hráč sedí přímo za svou rukou a čelem ke kartám.
+Vlastní nastavení kamery se nepřepisuje. Dealerův hologram zůstává větší a nad jeho kartami.
+
+Instalace: vypni server, nahraď starý Blackjack JAR a server zapni.
+Ponech plugins/Blackjack s nastavením, stoly a statistikami. V plugins nech jen jednu verzi Blackjacku.
+Resourcepack ani ProtocolLib nejsou potřeba. Je potřeba Vault a Vault ekonomika.
+Pravým klikem na židli nebo /join přisedneš; Shift, Odejít nebo /leave ukončí sezení.
+Při vypnuté kameře lze sázet příkazem /bet částka; /start otevře výběr sázky.
+
+76 automatických testů zahrnuje čekání na sázky, pozdní přisednutí, stržení a vracení peněz i síťový vstup.
+Nové zobrazení nebylo ověřené s připojeným Minecraft klientem.
+Soubory: https://github.com/MaftynosOupenSiource/obrazky/tree/blackjack-2.3.17-download/blackjack-downloads
