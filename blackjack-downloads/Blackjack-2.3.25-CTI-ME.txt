@@ -1,0 +1,20 @@
+Blackjack 2.3.25 pro Minecraft 1.20.4
+
+Vypni server, nahraď původní Blackjack JAR a server spusť.
+Zachovej složku plugins/Blackjack, především stats.yml a money-journal.log.
+
+Opraveno:
+- Blackjack při sázce 50 000 a výplatě 125 000 počítá čistý zisk +75 000.
+- Propadlá rozehraná sázka při odchodu/restartu zisk snižuje, včetně DOUBLE.
+- Historický zisk se automaticky přepočítá z potvrzených uzavřených her
+  v money-journal.log. Přepočet nepřevádí peníze a nemění zůstatek hráče.
+- Původní součet zůstává v stats.yml jako legacyTotalWinnings.
+- Hry bez záznamu v journalu nelze zpětně přesně dopočítat. Pokud journal
+  chybí nebo je prázdný, evidovaný zisk začíná na nule; původní hodnota
+  se uchová odděleně. Počítadla výher, proher a ostatní data zůstávají.
+
+Zisk je výsledek evidovaných uzavřených her blackjacku. Ostatní platby
+na serveru jej nemění; rozehraná sázka se započte po uzavření.
+
+Ověřeno 219 automatickými testy proti zabalenému JARu se zapnutou JVM
+verifikací. Testy zahrnují finanční ochrany i obnovu statistik po restartu.
