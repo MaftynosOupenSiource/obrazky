@@ -1,0 +1,22 @@
+Blackjack 2.3.26 pro Minecraft 1.20.4
+
+Vypni server, nahraď původní Blackjack JAR a server spusť.
+Zachovej složku plugins/Blackjack, především stats.yml, zálohy a money-journal.log.
+
+Opraveno:
+- TotalWinnings se při reloadu nepřepisuje částečným nebo prázdným journalem.
+- Uložený součet je zachovaný; nové uzavřené hry se započítají právě jednou.
+- Pokud verze 2.3.25 vynulovala hráči zisk, v journalu nemá uzavřené peněžní
+  záznamy a v datech existuje legacyTotalWinnings, obnoví se původní hodnota.
+  Záporné hodnoty se obnovují stejně jako kladné. Skutečně nulový výsledek
+  zaznamenaných her se automaticky nemění.
+- Po odstranění nebo vrácení journalu se zachová poslední uložený součet.
+- Opravy blackjacku a propadlých sázek zůstávají; přepočet statistik
+  nepřevádí peníze a nemění zůstatek v ekonomice.
+
+Důležité: nenulové dříve přepočítané součty s nejasným překryvem historie
+se neobnovují odhadem. Pro úplnou obnovu takové historie je potřeba původní
+záloha nebo dostatečné peněžní záznamy. Data nemaž.
+
+Ověřeno 227 automatickými testy proti zabalenému JARu se zapnutou JVM
+verifikací, včetně opakovaného načtení a obnovy nulových hodnot.
