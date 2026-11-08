@@ -1,0 +1,25 @@
+EventCore 3.30.0 – Hide & Seek pro Spigot 1.20.4 (Java 17+)
+
+INSTALACE
+Zastav server, nahraď původní EventCore JAR a server spusť.
+Datovou složku plugins/LastStand a recovery.json ponech.
+Neinstaluj současně více verzí EventCore/LastStand a nepoužívej PlugMan reload.
+
+NASTAVENÍ
+/eventcore edit hideseek – hůlka: rohy, kompas: podlaha, peří: spawny
+/eventcore save
+/eventcore settings hideseek
+/eventcore start hideseek
+Připojení hráčů: /event join
+
+Kniha v inventáři otevře pravým kliknutím výběr bloku.
+Schovávači mají skrytou postavu, nick i údaj o životech; hledači jsou viditelní.
+Nalezený schovávač se přidá k hledačům.
+Výchozí časy: 30 s na schování + 300 s hledání.
+
+Bez TOP3: 1 000 za celou přežitou minutu hledání, 2 500 za zabití schovávače.
+Částky, bloky a pravidla měň v plugins/LastStand/config_hideseek.yml nebo v GUI.
+Odměny se vyplatí po bezpečném vrácení původních osobních věcí a XP.
+
+OVĚŘENÍ
+1 528 automatických testů prošlo. Zobrazení s živým Minecraft klientem zde ověřeno nebylo.
