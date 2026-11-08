@@ -1,0 +1,13 @@
+EventCore 3.30.1 pro Spigot 1.20.4 – chyba obtížnosti Jump League
+
+Příkaz /eventcore start jumpleague nevyžaduje obtížnost.
+Obtížnosti jednotlivých modulů jsou v config_jumpleague.yml jako
+modules.<název>.difficulty: easy / normal / hard.
+Nová verze ignoruje mezery okolo platných hodnot a při neplatné hodnotě
+vypíše přesnou položku, název modulu i chybnou hodnotu.
+Neznámé obtížnosti dál odmítá. Konfiguraci, arénu ani uložené stavby nepřepisuje.
+Obsahuje také Hide & Seek z verze 3.30.0.
+
+Zastav server, nahraď původní EventCore JAR a server spusť.
+Datovou složku plugins/LastStand a recovery.json ponech.
+1 531 automatických testů prošlo.
