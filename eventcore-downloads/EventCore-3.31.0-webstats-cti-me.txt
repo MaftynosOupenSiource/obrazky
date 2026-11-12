@@ -1,0 +1,29 @@
+EventCore 3.31.0-webstats pro 1.20.4 – opravy Hide & Seek
+
+Zastav server, nahraď jediný původní EventCore JAR a server spusť.
+Ponech plugins/LastStand i recovery.json. Nepoužívej PlugMan reload.
+
+/eventcore edit hideseek <nazev> – vytvoření / úprava mapy
+Hůlka: rohy. Kompas: bod podlahy. Peří: spawny schovávačů.
+Shift + levý klik peřím: spawn hledačů na začátku a po smrti.
+Smaragd: uložit mapu i automaticky rozpoznanou nabídku bloků.
+Sken proběhne jen při uložení mapy; start už čte uložené bloky.
+Stávající mapu otevři v editoru, zkontroluj výběr a jednou ulož.
+/eventcore start hideseek – náhodná mapa
+/eventcore start hideseek <nazev> – konkrétní mapa
+/event join – připojení hráče
+
+Schovávači: kniha pro změnu bloku i za hry, dřevěný meč proti hledačům, raketka.
+Hledači: plné železné brnění a železný meč. Bez útoků na vlastní tým.
+F5 ukazuje vlastní blok. Po 3 s stání se upevní do mřížky; pohyb ho uvolní.
+Listí používá biom mapy, povolené jsou i schody, desky a další modely.
+Fly a osobní efekty se během eventu pozastaví; původní stav se obnoví při návratu.
+Raketka: výchozí příkaz eco give {player} 10000, cooldown 30 s.
+Odměny se vyplatí po bezpečném návratu; příkazy i cooldown lze změnit v configu.
+Hide & Seek nezapisuje umístění, odehrané hry, winrate ani webové statistiky.
+Webový export ostatních her z dodaného JARu zůstává zachovaný.
+
+Podrobný návod: LastStand/HIDESEEK.md v GitHub repozitáři PvpEvent.
+Ověření: celá sada 1 573 testů a následné cílené regresní testy prošly.
+Finální JAR prošel JVM ověřením a zkouškou zachování webového exportu.
+Vizuální podoba s živým Minecraft klientem zde ověřena nebyla.
